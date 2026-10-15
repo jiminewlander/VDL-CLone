@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <link href="css/ae9ap9.css" rel="stylesheet" type="text/css" media="screen" />
+<!--Insert any additional <head> and <script> elements you need here.-->
+
+<title>IRENE-AE9/AP9/SPM Future Versions</title>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><!--All page content must exist below this line-->
+<!--
+<div class="ae9ap9-nav">
+<a href="index.php">AE9AP9 Home</a>
+<a href="factsheet.php">Factsheet</a>
+<a href="quick-reference.php">Quick Reference</a>
+<a href="documents.php">Documents</a>
+<a href="validations.php">Validations &amp; Evaluations</a>
+<a href="downloads.php">Downloads</a>
+</div>
+--><h1>
+    IRENE-AE9/AP9/SPM: Future Versions
+</h1>
+<div id="ToC">
+    <div class="label">AE9/AP9/SPM Contents</div>
+    <ol>
+        <li><a href="/programs/ae9ap9/index.php">AE9AP9 Home</a></li>
+        <li><a href="/programs/ae9ap9/news.php">News</a></li>
+        <li><a href="/programs/ae9ap9/factsheet.php">Factsheet</a></li>
+        <li><a href="/programs/ae9ap9/quick-reference.php">Quick Reference</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/energy.php">Energy and spatial coverage</a></li>
+                <li><a href="/programs/ae9ap9/architecture.php">Architecture</a></li>
+                <li><a href="/programs/ae9ap9/datasets.php">Data sets</a></li>
+                <li><a href="/programs/ae9ap9/modes.php">Modes for running the model</a></li>
+                <li><a href="/programs/ae9ap9/time-sampling.php">Recommended time sampling</a></li>
+                <li><a href="/programs/ae9ap9/issues-and-limits.php">Known issues and limitations</a></li>
+                <li><a href="/programs/ae9ap9/versions-public.php">Versions (public releases)</a></li>
+                <li><a href="/programs/ae9ap9/future.php">Future version plans</a></li>
+                <li><a href="/programs/ae9ap9/best-practices-gen.php">Best Practices for Generating Space Environment Specifications with Modern Tools</a></li>
+                <li><a href="/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf">Radiation belt missions factsheet</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/documents.php">Documents</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/tech-docs.php">Technical documentation</a></li>
+                <li><a href="/programs/ae9ap9/technical_documentation_report.php">Technical Documentation Report</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/validations.php">Validations and evaluations</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/independent-validations.php">Independent validations and evaluations</a></li>
+            </ol>        
+        <li><a href="/programs/ae9ap9/downloads.php">Downloads</a></li>
+        <li><a href="/programs/ae9ap9/team.php">AE9/AP9/SPM Team</a></li>
+        <li><a href="/programs/ae9ap9/dsx.php">DSX</a></li>
+ 	    <ol>
+                <li><a href="/programs/ae9ap9/dsx_publications.php">List of DSX Publications</a></li>
+            </ol>
+
+    </ol>
+</div>
+
+<p>The IRENE-AE9/AP9/SPM suite is designed to support progressive improvements in features and capabilities.  Upgraded versions have already been introduced since the initial release and development work is progressing on future updates.
+</p>
+<p>A more flexible effects calculation capability is being developed that would make use of independently calculated effects kernels. Here, a kernel is a specification of the dependence of some effect (e.g., dose damage) as a function of particle species, energy, and depth, and would be the output of some independent particle simulation code for a particular material, shielding geometry, or component. When linked to IRENE-AE9/AP9, the model’s estimates for flux combined with the effects kernel would provide time-dependent estimates of risk. This is expected to be of particular interest to designers concerned with radiation effects on specific materials or components. To illustrate the capability, a sample kernel for estimated single event effects will be provided.  V1.55 introduced a dose kernel replicating the legacy SHIELDOSE2 dose estimation but with greater computational efficiency.
+</p><p>Another planned mode is the sample solar cycle.  This will allow runs through a data-assimilative/physics-based reananlysis of the radiation belts for a full historical solar cycle.  While not explicitly predictive, this will provide illustrative results for realistic time variations of hazards, e.g., authentic timescales of flux increases during geomagnetic storms, thus further informing design for worst-case conditions.
+</p><p>Additional modules are planned, the first of which will include a statistical model of solar protons.  This and other possible modules will be enabled by an architecture overhaul.  These changes will support refined hazard specification (e.g., local time dependence of plasma and east-west effect for protons) and additional hazards (e.g., auroral electrons).
+</p><p>International collaboration began in V1.50 with contribution of the Azur proton data set provided by the European Space Agency (ESA). The model is thus transitioning to a new name, International Radiation Environment Near Earth, or IRENE.
+</p>
+
+
+<!--All page content must exist above this line-->
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 31 March 2025
+    </div>
+
+</div>
+
+</body>
+</html>

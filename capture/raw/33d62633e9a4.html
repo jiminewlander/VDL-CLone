@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <link href="css/ae9ap9.css" rel="stylesheet" type="text/css" media="screen" />
+<!--Insert any additional <head> and <script> elements you need here.-->
+
+<title>AE9/AP9/SPM Independent validations and evaluations</title>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><!--All page content must exist below this line-->
+<!--
+<div class="ae9ap9-nav">
+<a href="index.php">AE9AP9 Home</a>
+<a href="factsheet.php">Factsheet</a>
+<a href="quick-reference.php">Quick Reference</a>
+<a href="documents.php">Documents</a>
+<a href="validations.php">Validations &amp; Evaluations</a>
+<a href="downloads.php">Downloads</a>
+</div>
+--><h1>
+    AE9/AP9/SPM: Independent Validations and Evaluations
+</h1>
+<div id="ToC">
+    <div class="label">AE9/AP9/SPM Contents</div>
+    <ol>
+        <li><a href="/programs/ae9ap9/index.php">AE9AP9 Home</a></li>
+        <li><a href="/programs/ae9ap9/news.php">News</a></li>
+        <li><a href="/programs/ae9ap9/factsheet.php">Factsheet</a></li>
+        <li><a href="/programs/ae9ap9/quick-reference.php">Quick Reference</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/energy.php">Energy and spatial coverage</a></li>
+                <li><a href="/programs/ae9ap9/architecture.php">Architecture</a></li>
+                <li><a href="/programs/ae9ap9/datasets.php">Data sets</a></li>
+                <li><a href="/programs/ae9ap9/modes.php">Modes for running the model</a></li>
+                <li><a href="/programs/ae9ap9/time-sampling.php">Recommended time sampling</a></li>
+                <li><a href="/programs/ae9ap9/issues-and-limits.php">Known issues and limitations</a></li>
+                <li><a href="/programs/ae9ap9/versions-public.php">Versions (public releases)</a></li>
+                <li><a href="/programs/ae9ap9/future.php">Future version plans</a></li>
+                <li><a href="/programs/ae9ap9/best-practices-gen.php">Best Practices for Generating Space Environment Specifications with Modern Tools</a></li>
+                <li><a href="/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf">Radiation belt missions factsheet</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/documents.php">Documents</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/tech-docs.php">Technical documentation</a></li>
+                <li><a href="/programs/ae9ap9/technical_documentation_report.php">Technical Documentation Report</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/validations.php">Validations and evaluations</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/independent-validations.php">Independent validations and evaluations</a></li>
+            </ol>        
+        <li><a href="/programs/ae9ap9/downloads.php">Downloads</a></li>
+        <li><a href="/programs/ae9ap9/team.php">AE9/AP9/SPM Team</a></li>
+        <li><a href="/programs/ae9ap9/dsx.php">DSX</a></li>
+ 	    <ol>
+                <li><a href="/programs/ae9ap9/dsx_publications.php">List of DSX Publications</a></li>
+            </ol>
+
+    </ol>
+</div>
+
+<ul>
+    <li>
+        V. S. Anashin, G. A. Protopopov, P. A. Shatov, and S. V. Tasenko, &ldquo;Analysis of geostationary and polar orbit space environment data
+        processed by the Russian Federal Space Agency (Roscosmos) monitoring system,&rdquo; <i>Radiation Effects Data Workshop (REDW), 2014 IEEE</i>,
+        1-3, doi:10.1109/REDW.2014.7004553 (2014).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/7004553">[1]</a>
+    </li>
+
+    <li>
+        W. Atwell and C. Matzkind, &ldquo;The AE-9 trapped electron model radiation environment and effects on electronics for several shielding
+        configurations, &rdquo; <i>48th International Conference on Environmental Systems</i>, ICES-2018-9 (2018).
+        <a target="_blank" rel="noopener noreferrer" href="https://ttu-ir.tdl.org/handle/2346/74029">[2]</a>
+    </li>
+    
+    <li>
+        F. F. Badavi, &ldquo;Validation of the new trapped environment AE9/AP9/SPM at low Earth orbit,&rdquo; <i>Adv. Space Res.</i>, 54(6):917-928 (2014).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.sciencedirect.com/science/article/pii/S0273117714002865">[3]</a>
+    </li>
+   
+    <li>
+        F. F. Badavi, S. A. Walker, and L. M. Santos Koos, &ldquo;Evaluation of the new radiation belt AE9/AP9/SPM model for a cislunar mission,&rdquo;
+        <i>Acta Astronautica</i>, 102:156-168 (2014).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.sciencedirect.com/science/article/pii/S0094576514002070">[4]</a>
+    </li>
+   
+    <li>
+        F. F. Badavi, S. A. Walker, and L. M. Santos Koos, &ldquo;Low Earth orbit assessment of proton anisotropy using AP8 and AP9 trapped proton
+        models,&rdquo; Life Sciences in Space Research, 5:21-30 (2015).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.sciencedirect.com/science/article/pii/S2214552415000188">[5]</a>
+    </li>
+
+    <li>
+        F. F. Badavi, &ldquo;Effects of updated trapped radiation environment on the ISS dosimetric measurements,&rdquo; 46th International Conference
+        on Environmental Systems, Vienna, Austria (July 2016).
+        <a target="_blank" rel="noopener noreferrer" href="https://ttu-ir.tdl.org/ttu-ir/handle/2346/67480">[6]</a>
+    </li>
+
+    <li>
+        S. Bourdarie, et al., &ldquo;Benchmarking ionizing space environment models,&rdquo; ESA/ESTEC (7 March 2017).
+        <a target="_blank" rel="noopener noreferrer" href="https://indico.esa.int/indico/event/188/session/0/contribution/59">[7]</a>
+    </li>
+
+    <li>
+        S. Bourdarie, et al., &ldquo;How much do solar cycle variations impact long-term effect predictions at LEO?,&rdquo;
+        <i>IEEE Transactions on Nuclear Science</i>, 67(10):2196-2202, doi:10.1109/TNS.2020.3008251 (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9137721">[8]</a>
+    </li>
+
+    <li>
+        Brunet, A. Sicard, C. Papadimitriou, D. Lazaro, and P. Caron, &ldquo;OMEP-EOR: A MeV proton flux specification model for electric orbit raising missions,&rdquo;
+        <i>Journal of Space Weather and Climate</i>, 11:55, doi:10.1051/swsc/2021038 (2021).
+        <a target="_blank" rel="noopener noreferrer" href="https://www.swsc-journal.org/articles/swsc/full_html/2021/01/swsc210004/swsc210004.html">[9]</a>
+    </li>
+
+    <li>
+        P. Caron, et al., &ldquo;In-flight measurements of radiation environment observed by Eutelsat 7C (Electric Orbit Raising Satellite),&rdquo;
+        <i>IEEE Trans. Nucl. Sci.</i>, 69(7):1527-1532, doi:10.1109/TNS.2022.3158470 (2022).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9732474">[10]</a>
+    </li>
+
+    <li>
+        Y. Chen, M. R. Carver, S. K. Morley, and A. S. Hoover, &ldquo;Determining ionizing doses in medium Earth orbit using long-term GPS particle
+        measurements,&rdquo; <i>2021 IEEE Aerospace Conference (50100)</i>, 1-21, doi:10.1109/AERO50100.2021.9438516 (2021).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9438516">[11]</a>
+    </li>
+
+    <li>
+        Y. Chen, B. A. Larsen, and M. G. Henderson, &ldquo;Calculating ionizing doses in geosynchronous orbit from in-situ particle measurements and
+        models,&rdquo; <i>2020 IEEE Aerospace Conference</i>, 1-8, doi:10.1109/AERO47225.2020.9172312 (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9172312">[12]</a>
+    </li>
+
+    <li>
+        M. de Soria-Santacruz Pich, I., Jun, and R. Evans, &ldquo;Empirical radiation belt models:  Comparison with in-situ data and implications for
+        environment definition,&rdquo; Space Weather, doi:10.1002/2017SW001612 (2017).
+        <a target="_blank" rel="noopener noreferrer" href="http://onlinelibrary.wiley.com/doi/10.1002/2017SW001612/full">[13]</a>
+    </li>
+    
+    <li>
+        E. Delonno, D. C. Marvin, and S. H. Liu, &ldquo;Assessment of AP9 and solar cell degradation models with flight data,&rdquo; <i>2013 IEEE 39th
+        Photovoltaic Specialists Conference (PVSC), Tampa, FL</i>, pp. 3103-3107, doi:10.1109/PVSC.2013.6745116 (2013).
+        <a target="_blank" rel="noopener noreferrer" href="http://ieeexplore.ieee.org/abstract/document/6745116/">[14]</a>
+    </li>
+    
+    <li>
+        D. Heynderickx, P. R. Truscott, H. Evans, and E. J. Daly, &ldquo;An evaluation of the AP9/AE9 radiation belt models for application in an ESA
+        context,&rdquo; Radiation Belt Workshop, Santorini, Greece (30 Jun 2013).
+        <a target="_blank" rel="noopener noreferrer" href="https://indico.esa.int/event/20/contributions/1813/contribution.pdf">[15]</a>
+    </li>
+    
+    <li>
+        D. Heynderickx and P. R. Truscott, &ldquo;Confronting the AP9/AE9 radiation belt models with spacecraft data and other models,&rdquo; European
+        Space Weather Week 11 (20 Nov 2014).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.stce.be/esww11/contributions/public/Session11/S11-O-10-HeynderickxD/IRENE_ESWW11.pptx">[16]</a>
+    </li>
+
+    <li>
+        N. V. Kuznetsov, N. I. Nikolaeva, R. A. Nymmik, M. I. Panasyuk, V. M. Uzhegov, and M. V. Yakovlev, &ldquo;Comparison of the models of charged
+        particle fluxes in space,&rdquo; <i>2015 15th European Conference on Radiation and Its Effects on Components and Systems (RADECS)</i>, 1-4,
+        doi:10.1109/RADECS.2015.7365594 (2015).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/7365594">[17]</a>
+    </li>
+
+    <li>
+        X. Li, et al., &ldquo;Upper limit on the inner radiation belt MeV electron intensity,&rdquo; <i>J. Geophys. Res.</i>, doi:10.1002.2014JA020777 (2015).
+        <a target="_blank" rel="noopener noreferrer" href="http://onlinelibrary.wiley.com/doi/10.1002/2014JA020777/abstract">[18]</a>
+    </li>
+
+    <li>
+        X. Li, et al., &ldquo;New insights from long-term measurements of inner belt protons (10x of MeV) by SAMPEX, POES, Van Allen Probes, and simulation
+        results,&rdquo; <i>J. Geophys. Res.</i>, 125:e2020JA028198, doi:10.1029/2020JA028198 (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JA028198">[19]</a>
+    </li>
+
+    <li>
+        R. Lozinski, et al., &ldquo;Solar cell degradation due to proton belt enhancements during electric orbit raising to GEO,&rdquo; <i>Space Weather</i>,
+        17:1059-1072, doi:10.1029/SW002213 (2019).
+        <a target="_blank" rel="noopener noreferrer" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019SW002213">[20]</a>
+    </li>
+
+    <li>
+        M. Martucci, et al., &ldquo;Trapped proton fluxes estimation inside the South Atlantic Anomaly using the NASA AE9/AP9/SPM radiation models along the
+        China Seismo-Electromagnetic Satellite orbit,&rdquo; <i>Appl. Sci.</i>, 11:3465, doi:10.3390/app11083465 (2021).
+        <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/2076-3417/11/8/3465/htm">[21]</a>
+    </li>
+
+    <li>
+        M. Martucci, et al., &ldquo;New results on protons inside the South Atlantic Anomaly, at energies between 40 and 250 MeV in the period 2018&ndash;2020,
+        from the CSES-01 satellite mission,&rdquo; <i>Phys. Rev. D</i>, 105:062001, doi:10.1103/PhysRevD.105.062001 (2022).
+        <a target="_blank" rel="noopener noreferrer" href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.062001">[22]</a>
+    </li>
+
+    <li>
+        W. Miyake, Y. Miyoshi, and A. Matsuoka, &ldquo;An empirical modeling of spatial distribution of trapped protons from solar cell degradation of the
+        Akebono satellite,&rdquo; <i>Adv. Space Res.</i>, 56(11):2575-2581 (2015).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.sciencedirect.com/science/article/pii/S0273117715007401">[23]</a>
+    </li>
+
+    <li>
+        J. Řípa, G. Dilillo, R. Campana, and G. Galgóczi, &ldquo;A comparison of trapped particle models in low Earth orbit,&rdquo; <i>Proc. SPIE 11444,
+        Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray</i>, 114443P, doi:10.1117/12.2561011 (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://spie.org/Publications/Proceedings/Paper/10.1117/12.2561011">[24]</a>
+    </li>
+
+    <li>
+        J. Řípa, G. Dilillo, R. Campana, and G. Galgóczi, &ldquo;Radiation models for trapped particles,&rdquo;
+        <i>HERMES-SP Payload Development Meeting</i>, available at INFN (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://agenda.infn.it/event/21252/contributions/108513/attachments/70149/87586/Udine_Jan_2020_Radiation_Models-Jakub_Ripa_v2.pdf">[25]</a>
+    </li>
+    
+    <li>
+        Sandberg, I. A. Daglis, D. Heynderickx, P. Truscott, A. Hands, H. Evans, and P. Nieminen, &ldquo;Development and validation of the electron slot
+        region radiation environment model,&rdquo; IEEE Trans. Nucl. Sci., 61(4):1656-1662 (2014).
+        <a target="_blank" rel="noopener noreferrer" href="http://ieeexplore.ieee.org/document/6799309/">[26]</a>
+    </li>
+
+    <li>
+        Sandberg, et al., &ldquo;First results and analysis from ESA Next Generation Radiation Monitor Unit onboard EDRS-C,&rdquo; <i>IEEE Trans. Nucl. Sci.</i>,
+        69(7):1549-1556, doi:10.1109/TNS.2022.31601018 (2022).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9737028">[27]</a>
+    </li>
+
+    <li>
+        Sicard, et al., &ldquo;GREEN: The new Global Radiation Earth ENvironment model (beta version),&rdquo;
+        <i>Annales Geophysicae</i>, 36:953-967, doi:10.5194/angeo-36-953-2018 (2018).
+        <a target="_blank" rel="noopener noreferrer" href="https://angeo.copernicus.org/articles/36/953/2018/">[28]</a>
+    </li>
+
+    <li>
+        Sicard, et al., &ldquo;A new model for the 1-10 MeV proton fluxes (part of ONERA GREEN-V3 model),&rdquo; <i>2019 19th European Conference on Radiation
+        and Its Effects on Components and Systems (RADECS)</i>, 1-5, doi:10.1109/RADECS47380.2019.9745646 (2019).
+        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/9745646">[29]</a>
+    </li>
+
+    <li>
+        H. Toda, et al., &ldquo;Spatial distribution of radiation belt protons deduced from solar cell degradation of the Arase satellite,&rdquo; <i>Int'l. J.
+        of Astronomy and Astrophysics</i>, 8(4):306-322, doi:10.4236/ijaa.2018.84022 (2018).
+        <a target="_blank" rel="noopener noreferrer" href="https://www.scirp.org/journal/paperinformation.aspx?paperid=88462">[30]</a>
+    </li>
+
+    <li>
+        H. Toda, et al., &ldquo;Observation of high-energy particles in the inner radiation belt by the HEP instrument of the Arase satellite,&rdquo; <i>Trans.
+        JSASS Aerospace Tech. Japan</i>, 18(6):398-403, doi:10.2322/tastj.18.398 (2020).
+        <a target="_blank" rel="noopener noreferrer" href="https://www.jstage.jst.go.jp/article/tastj/18/6/18_18.398/_article/-char/ja/">[31]</a>
+    </li>
+    
+    <li>
+        L. D. Trichtchenko, L. V. Nikitina, A. P. Trishchenko, and L. Garand, &ldquo;Highly elliptical orbits for Arctic observations: Assessment of ionizing
+        radiation,&rdquo; Adv. Space Res., 54(11):2398-2414 (2014).
+        <a target="_blank" rel="noopener noreferrer" href="http://www.sciencedirect.com/science/article/pii/S0273117714005766">[32]</a>
+    </li>
+
+    <li>
+        A. Varotsou, J. Guillermin, D. Standarovski, and R. Ecoffet, &ldquo;Impact of the consideration of AE9/AP9 models on the space radiation environment
+        specification,&rdquo; ESA/ESTEC (7 March 2017).
+        <a target="_blank" rel="noopener noreferrer" href="https://indico.esa.int/indico/event/188/session/0/contribution/58">[33]</a>
+    </li>
+
+    <li>
+        K. Zhang, et al., &ldquo;Upper limit of electron fluxes observed in the radiation belts,&rdquo;
+        <i>Journal of Geophysical Research--Space Physics</i>, 126:e2020JA028511, doi:10.1029/2020JA028511 (2021).
+        <a target="_blank" rel="noopener noreferrer" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JA028511">[34]</a>
+    </li>
+</ul>
+
+
+<!--All page content must exist above this line-->
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 31 March 2025
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "_comment": "Edit these before publishing. Every value marked TODO is a decision for the program office (see docs/ANALYSIS.md section 6).",
+  "release_base": "https://github.com/OWNER/REPO/releases/download/assets-v1/",
+  "show_usg_consent_banner": false,
+  "site_notice": "",
+  "account_request_url": "",
+  "help_email": "help@vdl.afrl.af.mil",
+  "help_phone": "(937) 713-8394",
+  "contacts": {
+    "atrwg": "atrwgwebmaster@vdl.afrl.af.mil",
+    "tap": "tapwebmaster@vdl.afrl.af.mil",
+    "oam": "help@vdl.afrl.af.mil",
+    "ae9ap9": "AFRL.RVBXR.AE9.AP9.Org.Mbx@us.af.mil"
+  },
+  "release_assets": {},
+  "third_party_overrides": {
+    "/programs/arsenl/files/FACE Technical Standard v3.1.pdf": "https://www.opengroup.org/face",
+    "/programs/arsenl/files/SOSA Technical Standard Edition 2.0.pdf": "https://www.opengroup.org/sosa",
+    "/programs/arsenl/files/REDHAWK-2.3 SCA Specification.pdf": "https://redhawksdr.org/",
+    "/programs/arsenl/files/CoPaIS - IEEE-ISTO_MOSA-IF-S-001.pdf": "https://ieee-isto.org/"
+  }
+}

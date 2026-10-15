@@ -1,0 +1,79 @@
+#globalWrapper {
+	position:relative !important;
+}
+
+.cBanner {
+	font-family: vdlSemibold, Helvetica, Arial, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	background-color:#008000;
+	color:#FFF;
+	padding:3px 0 4px 0;
+	font-size:12px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0.02em;
+	border-width:2px 0;
+	border-color:#060;
+	border-style:solid;
+	/*display:none;*/
+
+}
+
+#footer {
+	/*padding-bottom: 30px !important;*/
+}
+	
+#footer-places-bottombar {
+	font-family: vdlSemibold, Helvetica, Arial, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	background-color:#008000;
+	color:#FFF;
+	padding:3px 0 4px 0;
+	font-size:12px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0.02em;
+	border-width:2px 0;
+	border-color:#060;
+	border-style:solid;
+	clear:both;
+	display:block;
+	width:100%;
+
+}
+
+#footer-places-bottombar a {
+	font-family: vdlSemibold, Helvetica, Arial, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	color:#FFF;
+
+}
+
+#footer-places {
+	width:100%; /* Taking !important off this tag, it's screwing up my SDMS Wiki layout -RD */
+}
+.classification {
+	font-family: vdlSemibold, Helvetica, Arial, sans-serif;
+	padding: 3px 0 4px 0;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 2px;
+	clear: both;
+}
+.UNCLASSIFIED {
+	background-color: green;
+	color: #ffffff;
+}
+.SECRET, .SOUP {
+	background-color: red;
+}
+.TOP.SECRET, .TOMATO.SOUP {
+	background-color: orange;
+}
+.classification[class*="SCI"], .classification[class*="SALAD"] {
+	background-color: yellow;
+}
+

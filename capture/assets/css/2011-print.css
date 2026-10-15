@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+*:focus {
+	outline: 0 !important;
+}
+body {
+	color: #000;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	line-height: normal;
+	font-family: sans-serif !important;
+	
+}
+
+a:link, 
+a:visited 
+{
+	color: #00F !important;
+	background: transparent !important;
+	text-decoration: underline !important;
+}
+	
+h1, h2, h3, h4, h5, h6,
+.container,
+#content,
+.sectionBox,
+.grid-view,
+table,
+td,
+tr,
+th,
+#footer_bottom,
+.instr
+{
+	/* border:0 !important; NOWELL REMOVED */
+	/* background:none !important; NOWELL REMOVED */
+	/* color:#000 !important; NOWELL REMOVED */
+	text-shadow:none !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-ms-filter: none !important;
+	clear:both !important;
+
+}
+h1, h2, h3, h4, h5, h6
+{
+	padding-bottom:20px !important;
+}
+.account {
+	border:0;
+	background:none !important;
+	color:#000 !important;
+}
+.currentInfo {
+	border:0;
+	text-shadow:none !important;
+}
+
+.headCon {
+	height:80px !important;
+	left:0 !important;
+}
+th {
+	border:1px solid gray !important;
+}
+.sectionBox {
+	padding-top:20px !important;
+}
+/* Commented out a.btn below but still doesnt 
+   print even with background images turned on
+*/
+/*div.header a.btn,*/
+div.header .top_menu,
+div.header .tabContainer,
+div.header div.userName, 
+form.searchBox,
+#footer_top,
+#ebokIconMenu,
+tr.filters,
+td.button-column,
+th.button-column,
+.buttonLink,
+.ui-widget-overlay,
+#colorLegend
+{
+	display:none  !important;
+}
+
+.instr,
+#footer,
+#footer_bottom
+{
+margin: 0 !important;
+padding: 0 !important;
+}
+table {
+	/* width:100% !important; NOWELL REMOVED */
+	border-collapse: collapse; /* NOWELL ADDED */
+}
+#header.header {
+	display: none;
+}
+#footer, #footer_bottom, div#vdlHelp p {
+	background: none;
+	color: #000000;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <link href="css/ae9ap9.css" rel="stylesheet" type="text/css" media="screen" />
+<!--Insert any additional <head> and <script> elements you need here.-->
+
+<title>AE9/AP9/SPM: Modes</title>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><!--All page content must exist below this line-->
+<!--
+<div class="ae9ap9-nav">
+<a href="index.php">AE9AP9 Home</a>
+<a href="factsheet.php">Factsheet</a>
+<a href="quick-reference.php">Quick Reference</a>
+<a href="documents.php">Documents</a>
+<a href="validations.php">Validations &amp; Evaluations</a>
+<a href="downloads.php">Downloads</a>
+</div>
+--><h1>
+    Modes for Running AE9/AP9/SPM
+</h1>
+<div id="ToC">
+    <div class="label">AE9/AP9/SPM Contents</div>
+    <ol>
+        <li><a href="/programs/ae9ap9/index.php">AE9AP9 Home</a></li>
+        <li><a href="/programs/ae9ap9/news.php">News</a></li>
+        <li><a href="/programs/ae9ap9/factsheet.php">Factsheet</a></li>
+        <li><a href="/programs/ae9ap9/quick-reference.php">Quick Reference</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/energy.php">Energy and spatial coverage</a></li>
+                <li><a href="/programs/ae9ap9/architecture.php">Architecture</a></li>
+                <li><a href="/programs/ae9ap9/datasets.php">Data sets</a></li>
+                <li><a href="/programs/ae9ap9/modes.php">Modes for running the model</a></li>
+                <li><a href="/programs/ae9ap9/time-sampling.php">Recommended time sampling</a></li>
+                <li><a href="/programs/ae9ap9/issues-and-limits.php">Known issues and limitations</a></li>
+                <li><a href="/programs/ae9ap9/versions-public.php">Versions (public releases)</a></li>
+                <li><a href="/programs/ae9ap9/future.php">Future version plans</a></li>
+                <li><a href="/programs/ae9ap9/best-practices-gen.php">Best Practices for Generating Space Environment Specifications with Modern Tools</a></li>
+                <li><a href="/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf">Radiation belt missions factsheet</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/documents.php">Documents</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/tech-docs.php">Technical documentation</a></li>
+                <li><a href="/programs/ae9ap9/technical_documentation_report.php">Technical Documentation Report</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/validations.php">Validations and evaluations</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/independent-validations.php">Independent validations and evaluations</a></li>
+            </ol>        
+        <li><a href="/programs/ae9ap9/downloads.php">Downloads</a></li>
+        <li><a href="/programs/ae9ap9/team.php">AE9/AP9/SPM Team</a></li>
+        <li><a href="/programs/ae9ap9/dsx.php">DSX</a></li>
+ 	    <ol>
+                <li><a href="/programs/ae9ap9/dsx_publications.php">List of DSX Publications</a></li>
+            </ol>
+
+    </ol>
+</div>
+
+<p>
+    <div class="imageCon right thirty-five">
+    <a target="_new" href="images/GTOfluenceMC.jpg"><img src="images/GTOfluenceMC.jpg" /></a>
+    </div>
+    The AE9/AP9/SPM model suite introduces data-based statistics for estimates of the particle environment hazard, in contrast to legacy models which often provided estimates based only on a median environment state. AE9/AP9/SPM provides three mode options to variously access this capability:
+</p>
+
+<dl>
+    <dt>Mean</dt>
+    <dd>
+        using the mean flux maps with no variance statistics (analogous to most legacy models);
+    </dd>
+    <dt>Perturbed mean</dt>
+    <dd>
+        run as scenarios with fluxes perturbed by uncertainties in measurements and in gap-filling/extrapolation results;
+    <dd>    
+    <dt>Monte Carlo</dt>
+    <dd>
+        run as scenarios representing the perturbed mean uncertainties but with the addition of space weather variability (not available for SPM).
+    </dd>    
+</dl>
+
+<p>
+    In perturbed mean and Monte Carlo modes, each scenario run is randomly initialized to provide one realization of the expected environment. Statistics compiled from multiple scenarios then yield estimates of the uncertainty of the environment.
+</p>
+<table class="ae9Table">
+<tbody><tr>
+<th> Specification desired </th>
+<th> Run mode </th>
+<th> Duration </th>
+<th> Combination of results
+</th></tr>
+<tr>
+<td> Total dose </td>
+<td> Perturbed mean </td>
+<td> several orbits or days </td>
+<td> SPME + AE9, SPMH + AP9 + solar*
+</td></tr>
+<tr>
+<td> Displacement damage (proton fluence) </td>
+<td> Perturbed mean </td>
+<td> several orbits or days </td>
+<td> AP9 + solar*
+</td></tr>
+<tr>
+<td> Proton SEE (proton worst case) </td>
+<td> Monte Carlo </td>
+<td> full mission </td>
+<td> AP9 + solar*
+</td></tr>
+<tr>
+<td> Internal charging (electron worst case) </td>
+<td> Monte Carlo </td>
+<td> full mission </td>
+<td> AE9
+</td></tr></tbody></table>
+<p>
+    The table above summarizes choices of AE9/AP9/SPM model runs suggested for typical specifications:
+</p>
+<p class="notation">
+    Note (*): solar particles are not currently included in AE9/AP9/SPM; a separate model must be used for estimates of solar protons, see e.g. M. A. Xapsos, P. M. O'Neill and T. P. O'Brien, “Near-Earth space radiation models,” IEEE Trans. Nucl. Sci., 60(3):1691-1705 (2013).
+<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&tp=&arnumber=6375793&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F23%2F4689328%2F06375793.pdf%3Farnumber%3D6375793" target="_blank">[1]</a>
+</p>
+
+
+
+
+<!--All page content must exist above this line-->
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 31 March 2025
+    </div>
+
+</div>
+
+</body>
+</html>

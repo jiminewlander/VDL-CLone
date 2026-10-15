@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <link href="css/ae9ap9.css" rel="stylesheet" type="text/css" media="screen" />
+<!--Insert any additional <head> and <script> elements you need here.-->
+
+<title>IRENE-AE9/AP9/SPM Technical Documentation</title>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><!--All page content must exist below this line-->
+<!--
+<div class="ae9ap9-nav">
+<a href="index.php">AE9AP9 Home</a>
+<a href="factsheet.php">Factsheet</a>
+<a href="quick-reference.php">Quick Reference</a>
+<a href="documents.php">Documents</a>
+<a href="validations.php">Validations &amp; Evaluations</a>
+<a href="downloads.php">Downloads</a>
+</div>
+--><h1>
+    IRENE-AE9/AP9/SPM: Technical Documentation
+</h1>
+<div id="ToC">
+    <div class="label">AE9/AP9/SPM Contents</div>
+    <ol>
+        <li><a href="/programs/ae9ap9/index.php">AE9AP9 Home</a></li>
+        <li><a href="/programs/ae9ap9/news.php">News</a></li>
+        <li><a href="/programs/ae9ap9/factsheet.php">Factsheet</a></li>
+        <li><a href="/programs/ae9ap9/quick-reference.php">Quick Reference</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/energy.php">Energy and spatial coverage</a></li>
+                <li><a href="/programs/ae9ap9/architecture.php">Architecture</a></li>
+                <li><a href="/programs/ae9ap9/datasets.php">Data sets</a></li>
+                <li><a href="/programs/ae9ap9/modes.php">Modes for running the model</a></li>
+                <li><a href="/programs/ae9ap9/time-sampling.php">Recommended time sampling</a></li>
+                <li><a href="/programs/ae9ap9/issues-and-limits.php">Known issues and limitations</a></li>
+                <li><a href="/programs/ae9ap9/versions-public.php">Versions (public releases)</a></li>
+                <li><a href="/programs/ae9ap9/future.php">Future version plans</a></li>
+                <li><a href="/programs/ae9ap9/best-practices-gen.php">Best Practices for Generating Space Environment Specifications with Modern Tools</a></li>
+                <li><a href="/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf">Radiation belt missions factsheet</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/documents.php">Documents</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/tech-docs.php">Technical documentation</a></li>
+                <li><a href="/programs/ae9ap9/technical_documentation_report.php">Technical Documentation Report</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/validations.php">Validations and evaluations</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/independent-validations.php">Independent validations and evaluations</a></li>
+            </ol>        
+        <li><a href="/programs/ae9ap9/downloads.php">Downloads</a></li>
+        <li><a href="/programs/ae9ap9/team.php">AE9/AP9/SPM Team</a></li>
+        <li><a href="/programs/ae9ap9/dsx.php">DSX</a></li>
+ 	    <ol>
+                <li><a href="/programs/ae9ap9/dsx_publications.php">List of DSX Publications</a></li>
+            </ol>
+
+    </ol>
+</div>
+
+<p><a href="technical_documentation_report.php">Technical documentation report</a>--<em>comprehensive report, under construction with links to completed portions</em></p>
+
+<h2>Technical documentation, development</h2>
+
+<ul>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20120805_Aerospace_OBrien_TOR-2012-12374_datacleaning.pdf">Data cleaning guidelines for AE9/AP9</a>, Aerospace Report TOR-2012(1237)-4, Chantilly, VA (5 Aug 2012).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20120810_Aerospace_OBrien_TOR-2012-12373_timelags.pdf">Adding multiple time lags to AE9/AP9 V1.0</a>, Aerospace Report TOR-2012(1237)-3, Chantilly, VA (10 Aug 2012).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20130820_Aerospace_OBrien_TOR-2013-00515_surrogate_Kp.pdf">A surrogate time series model for the Kp geomagnetic index</a>, Aerospace Report TOR-2013-00515, Chantilly, VA (20 Aug 2013).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20131010_Aerospace_OBrien_TOR-2013-00873_surrogate_f10.7.pdf">A surrogate time series model for the F10.7 solar activity index and sunspot number</a>, Aerospace Report TOR-2013-00873, Chantilly, VA (10 Oct 2013).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20131230_Aerospace_OBrien_TOR-2014-00294_runtime_algorithms.pdf">AE9/AP9/SPM V1.0 runtime algorithms</a>, Aerospace Report TOR-2014-00294, Chantilly, VA (30 Dec 2013).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20131230_Aerospace_OBrien_TOR-2014-00295_generation_runtime_tables.pdf">Generation of AE9/AP9/SPM V1.0 runtime tables</a>, Aerospace Report TOR-2014-00295, Chantilly, VA (30 Dec 2013).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20131230_Aerospace_OBrien_TOR-2014-00361_parallelization.pdf">Algorithms for parallelizing AE9/AP9</a>, Aerospace Report TOR-2014-00361, Chantilly, VA (30 Dec 2013).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20160215_Aerospace_OBrien_ATR-2016-00932_MonteCarloUpgrades.pdf">AE9/AP9 Monte Carlo upgrades (from V1.2 to V1.3)</a>, Aerospace Report ATR-2016-00932, Chantilly, VA (15 Feb 2016).</li>
+<li> T. P. O'Brien, <a target="_new" href="files/techreports/20191201_Aerospace_OBrien_ATR-2019-02679_ModuleArchitecture.pdf">IRENE V2.0 module architecture</a>, Aerospace Report ATR-2019-02679, Chantilly, VA (1 Dec 2019).</li>
+</ul>
+
+<h2>Technical documentation, development--kernels</h2>
+
+<ul>
+<li> T. P. O'Brien and B. P. Kwan <a target="_new" href="files/techreports/20130820_Aerospace_OBrien_TOR-2013-00529_kernels_example.pdf">Using pre-computed kernels to accelerate effects calculations for AE9/AP9:  A displacement damage example</a>, Aerospace Report TOR-2013-00529, Chantilly, VA (20 Aug 2013).</li>
+<li>T. P. O'Brien, <a target="_new" href="files/techreports/20150630_Aerospace_OBrien_ATR-2015-02436_kernels.pdf">Specification for radiation effects kernels for use with AE9/AP9</a>, Aerospace Report ATR-2015-02436, Chantilly, VA (30 Jun 2015).</li>
+<li>T. P. O'Brien, <a target="_new" href="files/techreports/20150902_Aerospace_OBrien_TOR-2015-02707_SEEkernel.pdf">AE9/AP9 proton single-event effect kernel utility</a>, Aerospace Report TOR-2015-02707, Chantilly, VA (2 Sep 2015). </li>
+<li>T. P. O'Brien, B.P. Kwan, J.R. Stour<a target="_new" href="files/techreports/20160105_Aerospace_OBrien_TOR-2017-00514_electronDDkernel.pdf">, AE9/AP9 electron displacement damage kernels </a>, Aerospace Report TOR-2017-00514, Chantilly, VA (5 Jan 2016). </li>
+<li>T. P. O'Brien, <a target="_new" href="files/techreports/20160303_Aerospace_OBrien_TOR-2016-01203_internal_charging_kernel.pdf"> AE9/AP9 internal charging kernel utility--beam-slab geometry adapted to hemispherical shell for aluminum shields</a>, Aerospace Report TOR-2016-01203, Chantilly, VA (3 Mar 2016). </li>
+<li>T. P. O'Brien, <a target="_new" href="files/techreports/20160513_Aerospace_OBrien_ATR-2016-01756_effects_kernels.pdf">Developing AE9/AP9 kernels from third-party effects codes</a>, Aerospace Report ATR-2016-01756, Chantilly, VA (13 May 2016). </li>
+<li>T. P. O'Brien, <a target="_new" href="files/techreports/20161012_Aerospace_OBrien_ATR-2016-03268_displacement_damage_kernel.pdf">AE9/AP9 proton displacement damage kernels (version 2)</a>, Aerospace Report ATR-2016-03268, Chantilly, VA (12 Oct 2016). </li>
+<li>T. P. O'Brien and M. D. Looper, <a target="_new" href="files/techreports/20191015_Aerospace_OBrien_TOR-2018-02829_shell_electron_dose_kernel.pdf">AE9/AP9 hollow shell electron dose kernel</a>, Aerospace Report TOR-2018-02829, Chantilly, VA (15 Oct 2018). </li>
+</ul>
+
+<h2>Technical documentation, data sets</h2>
+
+<ul>
+<li> W. R. Johnston, C. D. Lindstrom, and G. P. Ginet, <a target="_new" href="files/techreports/20140218_DTIC_Johnston_CRRES-MEA-HEEF-CC.pdf">CRRES Medium Electron Sensor A (MEA) and High Energy Electron Fluxmeter (HEEF):  Cross-calibrated data set</a>, AFRL-RV-PS-TR-2014-0016, Air Force Research Laboratory, Kirtland AFB, NM (2014).
+   <ul>
+     <li> Available at DTIC <a target="_new" href="http://www.dtic.mil/docs/citations/ADA604519">[1]</a>.</li>
+   </ul>
+</li>
+<li> Y.-J. Su Caton and C. Roth, <a target="_new" href="files/techreports/20140218_DTIC_SuCaton_AFRL-TR_SCATHA.pdf">SCATHA/SC3 data processing and cross-calibration with LANL-GEO/CPA for AE9 development</a>, AFRL-RV-PS-TR-2014-0015, Air Force Research Laboratory, Kirtland AFB, NM (2014).
+   <ul>
+    <li> Available at DTIC <a target="_new" target="_new" href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA604523">[2]</a>.</li>
+   </ul>
+</li>
+<li> W. R. Johnston, <a target="_new" href="files/techreports/20140218_DTIC_Johnston_GEO-GEO-CC.pdf">GEO-GEO cross-calibration results for AE9 development</a>, AFRL-RV-PS-TR-2014-0017, Air Force Research Laboratory, Kirtland AFB, NM (2014).
+   <ul>
+    <li> Available at DTIC <a target="_new" target="_new" href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA605733">[3]</a>.</li>
+   </ul>
+</li>
+</ul>
+
+<h2>Technical presentations</h2>
+
+<ul>
+<h3>From the ISO WG4 meeting, 10 Oct 2012:</h3>
+<ul>
+<li> <a target="_new" href="files/presentations/20121010_ISO_OBrien_BackendProcessing.pdf">Generation of AE9/AP9 runtime tables</a>
+</li>
+<li> <a target="_new" href="files/presentations/20121010_ISO_Huston_Templates.pdf">Coordinates and templates</a>
+</li>
+<li> <a target="_new" href="files/presentations/20121010_ISO_Huston_SpectralInversion.pdf">Spectral inversion</a>
+</li>
+<li> <a target="_new" href="files/presentations/20121010_ISO_Roth_DataCleaning.pdf">Cleaning of satellite data sets:  A brief overview</a>
+</li>
+<li> <a target="_new" href="files/presentations/20121010_ISO_Johnston_CrossCal.pdf">Intercalibration</a>
+</li>
+<li> <a target="_new" href="files/presentations/20121010_ISO_OBrien_WhatWeNeedFromIntlPartners.pdf">Models needs for international partners</a>
+</li>
+</ul>
+<li> <a target="_new" href="files/presentations/20160425_SWW_Johnston_AE9AP9crosscal.pdf">Cross-calibration procedures in AE9/AP9/SPM</a> <em>(4th Harmonization of SEP Data Calibrations workshop, 25 Apr 2016).) </em>
+   <ul>
+     <li> Available at NOAA <a target="_new" target="_new" href="http://www.swpc.noaa.gov/sites/default/files/images/u33/HSDC-WM4-Johnston-AE9AP9-crosscal.pdf">[4]</a>.</li>
+   </ul>
+<li> <a target="_new" href="files/presentations/20161006_SRMDAW_OBrien_AE9AP9kernels.pdf">AE9/AP9 effects kernels</a> <em>(Space Radiation Modeling and Data Analysis Workshop, 6 Oct 2016).</em></li>
+<li> <a target="_new" href="files/presentations/20170209_AE9AP9UserDay_Roth_Parallelization.pdf">AE9/AP9 V1.35.001 parallelized architecture</a> <em>(AE9/AP9 User Day, 9 Feb 2017)</em></li>
+<li> From the Space Radiation Modeling and Data Analysis Workshop, 30 May 2019:
+   <ul>
+      <li> <a target="_new" href="files/presentations/20190530_SRMDAW_Guild_SPMfutureplans.pdf">IRENE plasma model future development plans and needs</a></li>
+      <li> <a target="_new" href="files/presentations/20190530_SRMDAW_Huston_AP9SolarCycleVariation.pdf">IRENE-AP9 solar cycle variation development</a></li>
+   </ul>
+</ul>
+
+<!--All page content must exist above this line-->
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 31 March 2025
+    </div>
+
+</div>
+
+</body>
+</html>

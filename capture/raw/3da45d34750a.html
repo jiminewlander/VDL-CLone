@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <link href="css/ae9ap9.css" rel="stylesheet" type="text/css" media="screen" />
+<!--Insert any additional <head> and <script> elements you need here.-->
+
+<title>AE9/AP9/SPM: Recommended time Sampling</title>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><!--All page content must exist below this line-->
+<!--
+<div class="ae9ap9-nav">
+<a href="index.php">AE9AP9 Home</a>
+<a href="factsheet.php">Factsheet</a>
+<a href="quick-reference.php">Quick Reference</a>
+<a href="documents.php">Documents</a>
+<a href="validations.php">Validations &amp; Evaluations</a>
+<a href="downloads.php">Downloads</a>
+</div>
+--><h1>
+    AE9/AP9/SPM: Recommended Time Sampling
+</h1>
+<div id="ToC">
+    <div class="label">AE9/AP9/SPM Contents</div>
+    <ol>
+        <li><a href="/programs/ae9ap9/index.php">AE9AP9 Home</a></li>
+        <li><a href="/programs/ae9ap9/news.php">News</a></li>
+        <li><a href="/programs/ae9ap9/factsheet.php">Factsheet</a></li>
+        <li><a href="/programs/ae9ap9/quick-reference.php">Quick Reference</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/energy.php">Energy and spatial coverage</a></li>
+                <li><a href="/programs/ae9ap9/architecture.php">Architecture</a></li>
+                <li><a href="/programs/ae9ap9/datasets.php">Data sets</a></li>
+                <li><a href="/programs/ae9ap9/modes.php">Modes for running the model</a></li>
+                <li><a href="/programs/ae9ap9/time-sampling.php">Recommended time sampling</a></li>
+                <li><a href="/programs/ae9ap9/issues-and-limits.php">Known issues and limitations</a></li>
+                <li><a href="/programs/ae9ap9/versions-public.php">Versions (public releases)</a></li>
+                <li><a href="/programs/ae9ap9/future.php">Future version plans</a></li>
+                <li><a href="/programs/ae9ap9/best-practices-gen.php">Best Practices for Generating Space Environment Specifications with Modern Tools</a></li>
+                <li><a href="/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf">Radiation belt missions factsheet</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/documents.php">Documents</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/tech-docs.php">Technical documentation</a></li>
+                <li><a href="/programs/ae9ap9/technical_documentation_report.php">Technical Documentation Report</a></li>
+            </ol>
+        <li><a href="/programs/ae9ap9/validations.php">Validations and evaluations</a></li>
+            <ol>
+                <li><a href="/programs/ae9ap9/independent-validations.php">Independent validations and evaluations</a></li>
+            </ol>        
+        <li><a href="/programs/ae9ap9/downloads.php">Downloads</a></li>
+        <li><a href="/programs/ae9ap9/team.php">AE9/AP9/SPM Team</a></li>
+        <li><a href="/programs/ae9ap9/dsx.php">DSX</a></li>
+ 	    <ol>
+                <li><a href="/programs/ae9ap9/dsx_publications.php">List of DSX Publications</a></li>
+            </ol>
+
+    </ol>
+</div>
+
+<p>
+    AE9/AP9 sometimes requires simulations of the entire mission duration for many scenarios. In such cases, choosing too short a time step can have severe penalties for computation time. Therefore, we provide the following guidelines to avoid oversampling.
+</p>
+<p>
+For most orbits, we recommend a radius-dependent time step. We express this dependence in terms of the geocentric radius R expressed in Earth radii R<sub>E</sub> (~6378 km):
+</p>
+<ul>
+<li> For R &le; 1.3 R<sub>E</sub>, use 10 seconds
+</li>
+<li> For 1.3 R<sub>E</sub> &lt; R &le; 2 R<sub>E</sub>, use 1 minute
+</li>
+<li> For 2 &lt; R &le; 4 R<sub>E</sub>, use 5-minute sampling
+</li>
+<li> For R &gt; 4 R<sub>E</sub>, use 15-minute sampling
+</li>
+</ul>
+
+<p>For low Earth orbit (LEO) below ~2000 km or R &lt; 1.3 R<sub>E</sub>, we recommend a time step of 10 seconds.  That is because the “horns” of the outer zone (outer Van Allen Belt) are fairly narrow in latitude, and so a small time step is necessary to ensure the time sampling does not inadvertently skip over part of the outer zone. As we move to greater distances, the spacecraft moves more slowly and the spatial features become more spread out.
+</p>
+
+<p>For the special case of geostationary orbit (GEO), we recommend a time step of 1 hour because this unique orbit is confined to a very narrow part of the radiation belt and therefore moves slowly in relation to the belt.
+</p>
+
+<p>Prior to Version 1.35, AE9/AP9’s built-in aggregators did not account for variable time steps.  Therefore, if the built-in aggregators are to be used in older versions, a fixed time step is required, and it should be the smallest time step anywhere in the orbit (it can be computed from the perigee radius).  Version 1.35 does handle variable time steps in the built-in aggregators.
+</p>
+
+<p>For runs involving very elliptical orbits, Version 1.58 provides an option to automatically generate ephemeris with variable timesteps, ensuring the above sampling requirements are met while using longer timesteps where appropriate (thus minimizing computation time requirements). See the "OrbVarStep" parameter and "Orbit Generation Time Parameters" section in the User's Guide. This option may be selected in the GUI "Satellite" tab as "Variable Steps".
+</p>
+
+<!--All page content must exist above this line-->
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 31 March 2025
+    </div>
+
+</div>
+
+</body>
+</html>

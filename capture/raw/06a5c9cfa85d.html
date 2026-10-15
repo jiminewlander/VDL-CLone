@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" />
+        </style>
+    <![endif]-->
+    
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="6BU2ihc67Ei_gB5lLFFjmFcKC0JKSCe4n6FrYCCx36qCcmbrVgKaJ-v5ZBYfEzerA0NjFRMkcMnl9zwjQeiT7w==">
+<title>TAP</title>
+<link href="css/atrwg.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="js/atrwg.js"></script>
+
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+    <div id="header">
+        <div id="logo">
+        <a id="vdl" href="https://www.vdl.afrl.af.mil/"><img src="/images/vdl_logo.png" width="189" height="74" alt="VDL Logo" /></a>
+        <a id="airforce" href="http://www.airforce.com/"><img src="/images/af_logo.jpg" width="187" height="60" alt="Air Force Logo" /></a>
+        </div>
+    </div>
+
+	<div id="mainmenu">
+        <ul>
+            <li><a href="/index.php?r=public/request_account">Request Account</a></li>
+            <li><a href="/index.php?r=public/passwordInstruct">Reset Password</a></li>
+            <li><a href="/index.php?r=public/programs">Public Programs</a></li>
+            <li><a href="https://restricted.vdl.afrl.af.mil/">Restricted VDL</a></li>
+            <li id="joinaflink"><a href="http://www.airforce.com/">Join the Air Force</a></li>
+        </ul>	
+	</div>
+
+	<div class="container">
+		<div id="content"><div class="bannerCon">
+    <div class="cell logo"><img src="images/AttestationLogo.png" width="150" height="150" alt="TAP Logo" /></div>
+    <div class="cell header">
+        <h1>TAP</h1>
+        <p>Collaboration site for the RYWA Avionics Attestation Project for assurance that target aircraft will start in a known-good state.</p>
+    </div>
+</div>
+
+<h2>What is TAP?</h2>
+
+<p>
+    As part of pre-flight checks, technicians use a trusted external verifier to validate the contents of non-volatile
+    storage on-board the LRU. The program uses strict timing analysis and queries to identify anomalies. As a result,
+    operators can generate assurance that the target aircraft will start in a known-good state. During the static attestation
+    process each memory area is scanned and memory contents and response times are recorded and compared against expected
+    values. Any unauthorized changes to OFP are detected and errors or possible cyber-attacks are displayed on the operator GUI.
+</p>
+
+<h2>What are the requirements to register for TAP?</h2>
+
+<p>
+    The requirements to be involved with TAP are the following:
+</p>
+<ul>
+    <li>Must be a United States Citizen</li>
+    <li>Must be working on a government contract</li>
+    <li>Must have a valid security clearance</li>
+</ul>
+
+<h2>How do I register for TAP?</h2>
+
+<p>
+    To be placed on the mailing list to receive information on upcoming TAP meetings, please fill in the following information:
+</p>
+
+<form id="atrwgRegister" action="tap_request.php" method="post" name="registration" onsubmit="return validateForm()">
+    <legend>
+        Contact Information <span class="smallText">
+        <br /><span class="formRequired">*</span> indicates required fields</span>
+    </legend>
+
+    <input type="hidden" name="_csrf" value="6BU2ihc67Ei_gB5lLFFjmFcKC0JKSCe4n6FrYCCx36qCcmbrVgKaJ-v5ZBYfEzerA0NjFRMkcMnl9zwjQeiT7w==" />
+
+    <fieldset class="data">
+        <div>               
+            <label for="name">Name</label>
+            <input id="name" class="form_input" name="name" type="text" size="35" onblur="validateField('name');">
+            <span class="formRequired">*</span>
+            <div id="nameError" class="help-error"></div>
+        </div>
+        <div>
+            <label for="address1">Address Line 1</label>
+            <input id="address1" class="form_input" name="address1" type="text" size="35" onblur="validateField('address1');">
+            <span class="formRequired">*</span>
+            <div id="address1Error" class="help-error"></div>
+        </div>
+        <div>
+            <label for="address2">Address Line 2</label>
+            <input id="address2" class="form_input" name="address2" type="text" size="35"onblur="validateField('address2');">
+            <div id="address2Error" class="help-error"></div>
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input id="city" class="form_input" name="city" type="text" size="15" onblur="validateField('city');">
+            <span class="formRequired">*</span>
+            <div id="cityError" class="help-error"></div>
+        </div>
+        <div>
+            <label for="state">State</label>
+            <input id="state" class="form_input" name="state" type="text" size="2" maxlength="2" onblur="validateField('state');">
+            <span class="formRequired">*</span>
+            <div id="stateError" class="help-error"></div>
+        </div>
+        <div>
+            <label for="zip">Zip Code</label>
+            <input id="zip" class="form_input" name="zip" type="text" size="10" maxlength="10" onblur="validateField('zip');">
+            <span class="formRequired">*</span>
+            <div id="zipError" class="help-error"></div>
+        </div>
+        <div>
+            <label for="telephone1">Telephone Number</label>
+            <input id="telephone1" class="form_input" name="telephone1" type="text" size="3" maxlength="3" onblur="validateField('telephone1');">
+            - 
+            <input id="telephone2" class="form_input" name="telephone2" type="text" size="3" maxlength="3" onblur="validateField('telephone2');">
+            - 
+            <input id="telephone3" class="form_input" name="telephone3" type="text" size="4" maxlength="4" onblur="validateField('telephone3');">
+            <span class="formRequired">*</span>
+            <div id="telephone1Error" class="help-error"></div>
+            <div id="telephone2Error" class="help-error"></div>
+            <div id="telephone3Error" class="help-error"></div>
+        </div>
+        <div>
+            <label for="fax1">Fax Number</label>
+            <input id="fax1" class="form_input" name="fax1" type="text" size="3" maxlength="3" onblur="validateField('fax1');">
+            - 
+            <input id="fax2" class="form_input" name="fax2" type="text" size="3" maxlength="3" onblur="validateField('fax2');">
+            - 
+            <input id="fax3" class="form_input" name="fax3" type="text" size="4" maxlength="4" onblur="validateField('fax3');">
+            <div id="fax1Error" class="help-error"></div>
+            <div id="fax2Error" class="help-error"></div>
+            <div id="fax3Error" class="help-error"></div>
+        </div>
+        <div>
+            <label for="email">E-mail Address</label>
+            <input id="email" class="form_input" name="email" type="text" size="35" onblur="validateField('email');">
+            <span class="formRequired">*</span>
+            <div id="emailError" class="help-error"></div>
+        </div>
+    </fieldset>
+
+    <fieldset class="submit">
+        <legend></legend>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" name="Submit2" value="Reset"> 
+    </fieldset>
+</form>
+
+<h2>How do I un-register for TAP?</h2>
+
+<p>To be removed from the mailing list, send a blank email to:</p>
+<p>tapwebmaster@vdl.afrl.af.mil</p>
+<p>with <b>UN-REGISTER FOR TAP</b> in the Subject line.</p>
+
+<h2>Request Restricted Access:</h2>
+
+<p>
+    Access to the TAP restricted site requires a Virtual Distributed Library (VDL) account. If you would like to request
+    access, please go to the following link and click Request Access.
+    <a href="https://www.vdl.afrl.af.mil/" title="Virtual Distributed Laboratory" target="_blank">https://www.vdl.afrl.af.mil/</a>
+</p>
+
+<h2>Administration:</h2>
+
+<p>
+    The TAP administrators can be reached by email at: tapwebmaster@vdl.afrl.af.mil
+</p>
+
+<div class="sponsorBox">
+
+    <h2>TAP Sponsors:</h2><br>
+    <table>
+        <tr>
+            <td><span><img src="images/TRMC.png" alt="TRMC logo"></span></td><td>Test Resource Management Center (TRMC)</td>
+        </tr>
+
+        <tr>
+            <td><span><img src="images/CROWSPicture1.png" alt="CROWS logo"></span></td><td>Cyber Resiliency Office for Weapon Systems (CROWS)</td>
+        </tr>
+
+        <tr>
+            <td><span><img src="images/mq9.jpg" alt="MQ9 logo"></span></td><td>AFLCMC/WII Medium Altitude UAS Division, Det 3,  MQ-9 System Program Office</td>
+        </tr>
+
+        <tr>
+            <td><span><img src="images/kc46.jpg" alt="KC46 logo"></span></td><td>AFLCMC/WK KC-46 System Program Office</td>
+        </tr>
+    </table>
+
+</div>
+
+           <div class="clearfix"></div>
+		</div><!--close CONTENT div-->
+	</div><!--close CONTAINER div-->
+
+	<div id="footer">
+    	<a href="/index.php?r=public/page&view=contact">Contact Us</a>
+	</div>
+	<div id="footerAppendage">
+        <a href="/index.php?r=public/page&view=privacy">Privacy &amp; Security Notice</a>
+        <a href="/index.php?r=public/page&view=hyperlink">External Link Disclaimer</a>
+        <a href="http://www.usa.gov/" title="USA.gov" target="_new">USA.gov</a>
+        <a href="http://prhome.defense.gov/nofear" title="No Fear Act" target="_new">No Fear Act</a>
+    </div>
+    <div class="publicReviewDate">        
+        Current as of 10 June 2024
+    </div>
+
+</div>
+
+</body>
+</html>

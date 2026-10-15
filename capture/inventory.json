@@ -1,0 +1,2676 @@
+{
+ "captured_at": "2026-10-14T21:46:59+00:00",
+ "pages": {
+  "https://www.vdl.afrl.af.mil/": {
+   "status": 200,
+   "raw": "f6f43b414b2d.html",
+   "bytes": 7356,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Frequest_account": {
+   "status": 200,
+   "raw": "0dd80d751e37.html",
+   "bytes": 9258,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": [
+    "<form action=\"/index.php?r=public%2Frequest_account\" method=\"post\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct": {
+   "status": 200,
+   "raw": "1440fca7d2a4.html",
+   "bytes": 7386,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms": {
+   "status": 200,
+   "raw": "a78f3a870944.html",
+   "bytes": 8834,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact": {
+   "status": 200,
+   "raw": "a73c58fc1d21.html",
+   "bytes": 8278,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy": {
+   "status": 200,
+   "raw": "fae333138e6c.html",
+   "bytes": 12022,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=hyperlink": {
+   "status": 200,
+   "raw": "4d02cc412633.html",
+   "bytes": 7810,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility": {
+   "status": 200,
+   "raw": "f15ce8c4221f.html",
+   "bytes": 9535,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/": {
+   "status": 200,
+   "raw": "90758b619bb3.html",
+   "bytes": 7296,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Home",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/": {
+   "status": 500,
+   "raw": "86d77275b89b.html",
+   "bytes": 3562,
+   "location": null,
+   "title": "Architectures, Standards and Engineering Library (A.R.S.EN.L)",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/": {
+   "status": 200,
+   "raw": "c2f64b95d5ff.html",
+   "bytes": 3915,
+   "location": null,
+   "title": "Open Architecture Management (OAM)",
+   "current_as_of": "10 June 2024",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/": {
+   "status": 200,
+   "raw": "cbf145daf6fd.html",
+   "bytes": 10444,
+   "location": null,
+   "title": "ATRWG",
+   "current_as_of": "10 June 2024",
+   "forms": [
+    "<form id=\"atrwgRegister\" action=\"atrwg_request.php\" method=\"post\" name=\"registration\" onsubmit=\"return validateForm()\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/tap/": {
+   "status": 200,
+   "raw": "06a5c9cfa85d.html",
+   "bytes": 9985,
+   "location": null,
+   "title": "TAP",
+   "current_as_of": "10 June 2024",
+   "forms": [
+    "<form id=\"atrwgRegister\" action=\"tap_request.php\" method=\"post\" name=\"registration\" onsubmit=\"return validateForm()\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/public-login.php": {
+   "status": 200,
+   "raw": "bda32a2dd77a.html",
+   "bytes": 6822,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Downloads",
+   "current_as_of": "31 March 2025",
+   "forms": [
+    "<form class=\"niceForm\" action=\"handle-public-login.php\" method=\"POST\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/vdl-login.php": {
+   "status": 200,
+   "raw": "32b138f96701.html",
+   "bytes": 6549,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Downloads",
+   "current_as_of": "31 March 2025",
+   "forms": [
+    "<form class=\"niceForm\" action=\"handle-vdl-login.php\" method=\"POST\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/register.php": {
+   "status": 200,
+   "raw": "91ec5d86b402.html",
+   "bytes": 9786,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM New Account Registration",
+   "current_as_of": "31 March 2025",
+   "forms": [
+    "<form class=\"niceForm\" action=\"add-user.php\" onsubmit=\"return validateForm()\" method=\"POST\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/reset-password.php": {
+   "status": 200,
+   "raw": "f0360437c70e.html",
+   "bytes": 6056,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Password Reset",
+   "current_as_of": "31 March 2025",
+   "forms": [
+    "<form name=\"emailForm\" class=\"niceForm\" action=\"reset-password.php\" onsubmit=\"return validateForm()\" method=\"POST\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php": {
+   "status": 500,
+   "raw": "82abff05e7b1.html",
+   "bytes": 3515,
+   "location": null,
+   "title": "Architectures, Standards and Engineering Library (A.R.S.EN.L) - Reference Architectures",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam": {
+   "status": 301,
+   "raw": "870f0e913019.html",
+   "bytes": 289,
+   "location": "https://www.vdl.afrl.af.mil/programs/oam/",
+   "title": "301 Moved Permanently",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/request_account": {
+   "status": 200,
+   "raw": "01def56034ad.html",
+   "bytes": 9256,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": [
+    "<form action=\"/index.php?r=public/request_account\" method=\"post\">"
+   ]
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct": {
+   "status": 200,
+   "raw": "8298afbdf0d8.html",
+   "bytes": 7386,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/programs": {
+   "status": 200,
+   "raw": "07f7bf8829fe.html",
+   "bytes": 8834,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php": {
+   "status": 200,
+   "raw": "00cbf6058514.html",
+   "bytes": 7296,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Home",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php": {
+   "status": 200,
+   "raw": "d90566890222.html",
+   "bytes": 11995,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM News",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/factsheet.php": {
+   "status": 200,
+   "raw": "5bb72daa2595.html",
+   "bytes": 8992,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Factsheet",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/quick-reference.php": {
+   "status": 200,
+   "raw": "49d7c29f7755.html",
+   "bytes": 6347,
+   "location": null,
+   "title": "AE9/AP9/SPM Quick Reference",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/energy.php": {
+   "status": 200,
+   "raw": "f53792b3561c.html",
+   "bytes": 6571,
+   "location": null,
+   "title": "AE9/AP9/SPM Energy and Spatial Coverage",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/architecture.php": {
+   "status": 200,
+   "raw": "711e9d8d3dc0.html",
+   "bytes": 5667,
+   "location": null,
+   "title": "AE9/AP9/SPM: Architecture",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/datasets.php": {
+   "status": 200,
+   "raw": "02565b64e2c7.html",
+   "bytes": 12073,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM: Datasets",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php": {
+   "status": 200,
+   "raw": "24c2204f2c24.html",
+   "bytes": 8082,
+   "location": null,
+   "title": "AE9/AP9/SPM: Modes",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/time-sampling.php": {
+   "status": 200,
+   "raw": "3da45d34750a.html",
+   "bytes": 7840,
+   "location": null,
+   "title": "AE9/AP9/SPM: Recommended time Sampling",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/issues-and-limits.php": {
+   "status": 200,
+   "raw": "e76aa1fb4ade.html",
+   "bytes": 10453,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Known Issues and Limitations",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/versions-public.php": {
+   "status": 200,
+   "raw": "a065e8129724.html",
+   "bytes": 7772,
+   "location": null,
+   "title": "AE9/AP9/SPM Versions (public releases)",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/future.php": {
+   "status": 200,
+   "raw": "394bd2816db7.html",
+   "bytes": 7756,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Future Versions",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/best-practices-gen.php": {
+   "status": 200,
+   "raw": "ea413a987675.html",
+   "bytes": 8505,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Best Practices for Generating Space Environment Specifications with Modern Tools",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php": {
+   "status": 200,
+   "raw": "d32e44280e9d.html",
+   "bytes": 20583,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Documents",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php": {
+   "status": 200,
+   "raw": "9d7bcebfb128.html",
+   "bytes": 13681,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Technical Documentation",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/technical_documentation_report.php": {
+   "status": 200,
+   "raw": "65a225c76d8a.html",
+   "bytes": 8060,
+   "location": null,
+   "title": "AE9/AP9/SPM Technical Documentation Report",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php": {
+   "status": 200,
+   "raw": "ce1551ac9902.html",
+   "bytes": 11288,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Validations",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php": {
+   "status": 200,
+   "raw": "33d62633e9a4.html",
+   "bytes": 18825,
+   "location": null,
+   "title": "AE9/AP9/SPM Independent validations and evaluations",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php": {
+   "status": 200,
+   "raw": "b278f2fdeb87.html",
+   "bytes": 7557,
+   "location": null,
+   "title": "IRENE-AE9/AP9/SPM Downloads",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php": {
+   "status": 200,
+   "raw": "2db44fecf89f.html",
+   "bytes": 6527,
+   "location": null,
+   "title": "AE9/AP9/SPM Team",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php": {
+   "status": 200,
+   "raw": "555e273a8f3a.html",
+   "bytes": 6960,
+   "location": null,
+   "title": "AE9/AP9 - DSX",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php": {
+   "status": 200,
+   "raw": "12c9a1ed62d8.html",
+   "bytes": 61828,
+   "location": null,
+   "title": "AE9/AP9 - DSX Publications",
+   "current_as_of": "31 March 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact": {
+   "status": 200,
+   "raw": "a2cb79f654dc.html",
+   "bytes": 8278,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy": {
+   "status": 200,
+   "raw": "a82eab43dd87.html",
+   "bytes": 12022,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=hyperlink": {
+   "status": 200,
+   "raw": "2cb299e119eb.html",
+   "bytes": 7810,
+   "location": null,
+   "title": "VDL",
+   "current_as_of": "19 August 2025",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/index.php": {
+   "status": 500,
+   "raw": "d6f3ee7ba621.html",
+   "bytes": 3562,
+   "location": null,
+   "title": "Architectures, Standards and Engineering Library (A.R.S.EN.L)",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php": {
+   "status": 200,
+   "raw": "68b897fd6c94.html",
+   "bytes": 5518,
+   "location": null,
+   "title": "Architectures, Standards and Engineering Library (A.R.S.EN.L) - ARSENL Access Instructions",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php": {
+   "status": 200,
+   "raw": "840d14a4f75f.html",
+   "bytes": 7548,
+   "location": null,
+   "title": "Architectures, Standards and Engineering Library (A.R.S.EN.L) - Standards",
+   "current_as_of": null,
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/index.php": {
+   "status": 200,
+   "raw": "f4fbcb9d9755.html",
+   "bytes": 3915,
+   "location": null,
+   "title": "Open Architecture Management (OAM)",
+   "current_as_of": "10 June 2024",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/oms.php": {
+   "status": 200,
+   "raw": "c603515745bd.html",
+   "bytes": 3954,
+   "location": null,
+   "title": "OMS",
+   "current_as_of": "10 June 2024",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/uci.php": {
+   "status": 200,
+   "raw": "864d777e6ac5.html",
+   "bytes": 3896,
+   "location": null,
+   "title": "OMS",
+   "current_as_of": "10 June 2024",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/brochure.php": {
+   "status": 200,
+   "raw": "cbf0089734d8.html",
+   "bytes": 13183,
+   "location": null,
+   "title": "OAM Brochure",
+   "current_as_of": "10 June 2024",
+   "forms": []
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/contact_us.php": {
+   "status": 200,
+   "raw": "7f3f7c2cb0c9.html",
+   "bytes": 5952,
+   "location": null,
+   "title": "OAM Contact Us",
+   "current_as_of": "10 June 2024",
+   "forms": [
+    "<form id=\"uciRegister\" action=\"oam_request.php\" method=\"post\" name=\"registration\">"
+   ]
+  }
+ },
+ "files": {
+  "https://www.vdl.afrl.af.mil/yii2_assets/f9eff56d/css/bootstrap.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "280202",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2025-screen.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "17053",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2012-vdl-sipr.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "1516",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/jquery-ui.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "36577",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2025-main.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "8323",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2025-form.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "4392",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2011-print.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "1900",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2011-ie8-fixes.css": {
+   "status": 404,
+   "type": "text/html; charset=UTF-8",
+   "bytes": "124",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/2011-ie7-fixes.css": {
+   "status": 404,
+   "type": "text/html; charset=UTF-8",
+   "bytes": "124",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/images/vdl_logo.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "21107",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/images/af_logo.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "4501",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/images/vdl_logo_large.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "80068",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/js/jquery-3.6.0.min.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "89502",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/yii2_assets/42f310be/yii.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "20981",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/yii2_assets/f9eff56d/js/bootstrap.bundle.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "207922",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/js/jquery-ui-1.12.1.min.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "253669",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/js/2017-vdl_public.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "2414",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/yii2_assets/556320cf/jquery.pjax.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "29506",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/screen.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "12608",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/print.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "1284",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/main.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "7869",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/form.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "4275",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/ie8.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "145",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/css/ie7.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "2138",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/css/ae9ap9.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "6928",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/other/20170918_AFRL_Johnston_RBrefchart.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1202104",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/images/RBwsats.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "84283",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/css/arsenl.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "2588",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/images/ARSENLLogo.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "81057",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/css/uci.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "5105",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/OMS_Marketing.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "685422",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/files/oam-brochure.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "953236",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/images/OAM_Logo_v2.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "79837",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/css/atrwg.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "1397",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/js/atrwg.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "4777",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/atrwg-logo.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "49189",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/darpa_little.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "1943",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/DOD_little.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "1669",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/NGA_little.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "2292",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/NavAir_little.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "1874",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/RDECOM_little.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "2847",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/atrwg/images/afrl_small_logo.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "2220",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/css/atrwg.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "1397",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/js/atrwg.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "4777",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/images/AttestationLogo.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "145402",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/images/TRMC.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "65885",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/images/CROWSPicture1.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "46267",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/images/mq9.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "13103",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/tap/images/kc46.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "8870",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/js/ae9.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "3849",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_V1_58_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "206797",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_50_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "901683",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_35_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "929694",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.30_MC_Issue_Fix.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "905149",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_30_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "157933",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_20_004_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "130970",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/20151014_AFRL_AP9V120MCissue.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "298579",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_20_002_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "157812",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_20_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "182427",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/other/20170929_AFRL_AE9AP9factsheet.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "290603",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/images/Modeldesign.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "370948",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/images/GTOfluenceMC.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "91465",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_V1.58.001_KnownIssues.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "271463",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20211231_Aerospace_Guild_TOR-2022-00016_bestpractices.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2383158",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_Users_Guide.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2190692",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/publications/AE9AP9SPM_SSR_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "7719934",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/publications/20140603_SPIE_Johnston_AE9AP9_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1152950",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_Build_Instructions.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "390962",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_C_API.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1761251",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_C++_API.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1478508",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_Python_API.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1432307",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_Guidance_Third-Party_Developers.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "471319",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_V1.58.001_licenses.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "283179",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_V1_57_004_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "301707",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/IRENE_V1_56_002_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "253114",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_55_003_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "285642",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_20_003_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "178964",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_05_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "196675",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_04_002_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "191339",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_04_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "195083",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_03_001_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "200425",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_00_003_ReleaseNotes.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "200555",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_Johnston_overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3340545",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_Jiggens_ESA_contributions.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "4483397",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_Roth_V1.57featurechanges.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1439297",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_OBrien_Kernels.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1153951",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_Johnston_V1.6.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "429149",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_Jiggens_ESA_SAPPHIRE2S.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "12036316",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20230301_IRENE_IndustryDay2023_OBrien_V2features.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1570698",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20220915_SEESAW_Johnston_IRENEupdate.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2474270",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20220717_COSPAR_OBrien_IRENEupdate.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1676791",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20210131_COSPAR_OBrien_IRENEupdate.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3215785",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20210130_COSPAR_OBrien_IRENEfutureplans.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1662022",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20181107_ESWW_OBrien_IRENE.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2395321",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20180521_SEES_Guild_AE9AP9Update.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3624702",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20170504_SWW_Johnston_AE9AP9_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3434163",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20170209_AE9AP9UserDay_Johnston_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2879472",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20170209_AE9AP9UserDay_Johnston_V1.5Updates.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2734134",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20170209_AE9AP9UserDay_Roth_Parallelization.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "667460",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20170209_AE9AP9UserDay_OBrien_Accumulators.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "404025",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20161006_SRMDAW_OBrien_AE9AP9kernels.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "637361",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20161006_SRMDAW_OBrien_AE9AP9Status.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2694689",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20160728_GEM_OBrien_AE9AP9forscientists.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1153438",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20150715_NSREC_Johnston_AE9AP9V120update.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2310253",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20150417_EGU_OBrien_AE9AP9Status.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2091440",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20141120_ESWW_Quinn_AE9AP9Status.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "5131971",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20141120_ESWW_Huston_AE9AP9Challenges.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1728488",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140917_Rhodes_Huston_AE9AP9.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2655675",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140803_COSPAR_OBrien_AE9AP9Status.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "4471830",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140803_COSPAR_OBrien_AE9AP9Challenges.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1175371",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140618_GEM_Johnston_AE9AP9.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "592302",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140505_SPIE-DSS_Fennelly_AE9AP9.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3800283",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20130923_RADECS_OBrien_AE9AP9_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "4318368",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20130709_NSREC_Huston_AE9AP9modelcomparisons.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1659559",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20130630_Santorini_Johnston_AE9AP9-future-versions.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "828398",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20130630_Santorini_OBrien_AE9AP9_Overview.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3792893",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20120805_Aerospace_OBrien_TOR-2012-12374_datacleaning.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "886737",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20120810_Aerospace_OBrien_TOR-2012-12373_timelags.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "255807",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20130820_Aerospace_OBrien_TOR-2013-00515_surrogate_Kp.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "276142",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20131010_Aerospace_OBrien_TOR-2013-00873_surrogate_f10.7.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "554315",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20131230_Aerospace_OBrien_TOR-2014-00294_runtime_algorithms.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "314103",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20131230_Aerospace_OBrien_TOR-2014-00295_generation_runtime_tables.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "899985",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20131230_Aerospace_OBrien_TOR-2014-00361_parallelization.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "359592",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20160215_Aerospace_OBrien_ATR-2016-00932_MonteCarloUpgrades.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "961093",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20191201_Aerospace_OBrien_ATR-2019-02679_ModuleArchitecture.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "724448",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20130820_Aerospace_OBrien_TOR-2013-00529_kernels_example.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1307169",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20150630_Aerospace_OBrien_ATR-2015-02436_kernels.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1749682",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20150902_Aerospace_OBrien_TOR-2015-02707_SEEkernel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1981618",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20160105_Aerospace_OBrien_TOR-2017-00514_electronDDkernel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1360206",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20160303_Aerospace_OBrien_TOR-2016-01203_internal_charging_kernel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1485113",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20160513_Aerospace_OBrien_ATR-2016-01756_effects_kernels.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1217432",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20161012_Aerospace_OBrien_ATR-2016-03268_displacement_damage_kernel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1181669",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20191015_Aerospace_OBrien_TOR-2018-02829_shell_electron_dose_kernel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1191432",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20140218_DTIC_Johnston_CRRES-MEA-HEEF-CC.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1513644",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20140218_DTIC_SuCaton_AFRL-TR_SCATHA.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "4419908",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreports/20140218_DTIC_Johnston_GEO-GEO-CC.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3005276",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_OBrien_BackendProcessing.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "851509",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_Huston_Templates.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "683497",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_Huston_SpectralInversion.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1040231",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_Roth_DataCleaning.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1165462",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_Johnston_CrossCal.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "733590",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20121010_ISO_OBrien_WhatWeNeedFromIntlPartners.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "323849",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20160425_SWW_Johnston_AE9AP9crosscal.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1115885",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20190530_SRMDAW_Guild_SPMfutureplans.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2022877",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20190530_SRMDAW_Huston_AP9SolarCycleVariation.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1873784",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_1.2.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "399192",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_1.3.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "366228",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_1.4.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "943745",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_1.5.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "405125",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_2.2.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "348146",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_2.3.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "398774",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_2.4.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "514445",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_3.2.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1871990",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_3.3.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1833092",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_3.4.1.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2286041",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_5.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "155828",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.A.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "381801",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.B.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "239553",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.C.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "239490",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.H.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "740190",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.K.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "8167235",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/techreportfull/AE9AP9_TechDoc_2014_App.L.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "113763",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Ae9Ap9_v1_50_001_Software_Verification_Testing.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2061807",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.50.001_Model_comparison_summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "17963871",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.50.001_Model_comparison_spatial.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "13050490",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9_V1.50.001_Validation_Summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "14328701",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AP9_V1.50.001_Validation_Summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "13884502",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/Dose_Kernel_Validation_Testing.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "700316",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_TechDoc_Ax8_report.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "376456",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20161006_SRMDAW_Huston_LEO_protons_AP9.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1928180",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20150809_SPIE_Fennelly_CubeSatDesign.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3026828",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20150415_SWW_Young_EnergeticProtonModel.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2524494",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/other/20150131_AER_Huston_LEOprotons.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3417585",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/presentations/20140623_SCTC_Skov_MagEIS.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3237988",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.30.001_Model_comparison_summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "22446271",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.30.001_Model_comparison_spatial.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "11357763",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.30.001_Validation_Summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "23354941",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.20.002_Model_comparison_summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "22854252",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.20.002_Model_comparison_spatial.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "9532058",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/package/AE9AP9_V1.20.002_Validation_Summary.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "23427249",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/data_download/?file=IRENE_V1.58.001.zip": {
+   "status": 302,
+   "type": "text/html; charset=UTF-8",
+   "bytes": null,
+   "location": "/programs/ae9ap9/public-login.php"
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/images/DSX.jpg": {
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": "162042",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20221215_Johnston_DSX_AGU.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3158487",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20211213_Carilli_DSX_precip_search.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "934654",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20210310_Johnston_DSX_PWING-ERG.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "3315898",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20201207_Johnston_DSX_SWx.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1306472",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20191212_McCollough_DSX_AGU.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "6419483",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20171211_AGU_Su_DSX-SWx.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2650816",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20171211_McCollough_DSX_WPIx.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "6137860",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20161213_AGU_Roddy_LEESA.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "749570",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/ae9ap9/files/dsx_publications/20151215_AGU_Johnston_DSX.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "2070796",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/images/vdl-instructions.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "143124",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/files/FACE%20Technical%20Standard%20v3.1.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "6641092",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/files/SOSA%20Technical%20Standard%20Edition%202.0.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "8112026",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/files/SCA_4.1_SCASPECIFICATION.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "5971428",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/files/REDHAWK-2.3%20SCA%20Specification.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "8750093",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/arsenl/files/CoPaIS%20-%20IEEE-ISTO_MOSA-IF-S-001.pdf": {
+   "status": 200,
+   "type": "application/pdf",
+   "bytes": "1962738",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/images/OAM_Logov2.png": {
+   "status": 200,
+   "type": "image/png",
+   "bytes": "145625",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/images/aboutimage.gif": {
+   "status": 200,
+   "type": "image/gif",
+   "bytes": "77294",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/css/brochure.css": {
+   "status": 200,
+   "type": "text/css",
+   "bytes": "913",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/php/get-video.php?f=oam-brochure.mp4": {
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": "110164542",
+   "location": null
+  },
+  "https://www.vdl.afrl.af.mil/programs/oam/js/brochure.js": {
+   "status": 200,
+   "type": "application/javascript",
+   "bytes": "1558",
+   "location": null
+  }
+ },
+ "outbound": {
+  "http://adsabs.harvard.edu/abs/2017AGUFMSM11G..04M": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/abs/2017AGUFMSM43B2704M": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/abs/2018cosp...42E2220M": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/abs/2018cosp...42E2221M": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=1998ITNS...45.2758D&db_key=PHY&link_type=ABSTRACT&high=596547fb4505980": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=1999AIPC..458..735D&db_key=AST&link_type=ABSTRACT&high=596547fb4505980": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2006cosp...36.3122F&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..05F&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..06D&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..07D&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..08V&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..09C&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..0AS&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..0BS&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..0EP&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009SPIE.7438E..17C&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009amos.confE..47S&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2011PhDT.........2P&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014AGUFMSM31A4168W&db_key=AST&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014NIMPA.741...37P&db_key=PHY&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2015AGUFMSM41A2472M&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2016AGUFMSM11C2169M&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2016AGUFMSM11C2171R&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2016AGUFMSM23C..09M&db_key=AST&link_type=ABSTRACT&high=595ff329ce23744": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2016NIMPA.808...11P&db_key=PHY&link_type=ABSTRACT&high=595ff329ce29115": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://dcmo.defense.gov/publications/annual-performance-plan-annual-peformance-report.html": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1444&context=smallsat": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://get.adobe.com/reader/otherversions/": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility"
+  ],
+  "http://ieeexplore.ieee.org/abstract/document/6745116/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://ieeexplore.ieee.org/document/1315985/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://ieeexplore.ieee.org/document/1367636/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://ieeexplore.ieee.org/document/6799309/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://ieeexplore.ieee.org/document/8053802/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://ieeexplore.ieee.org/document/8101531/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&tp=&arnumber=6375793&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F23%2F4689328%2F06375793.pdf%3Farnumber%3D6375793": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php"
+  ],
+  "http://link.springer.com/article/10.1007%2Fs11214-013-9964-y#page-1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://lws-set.gsfc.nasa.gov/radiation_model_user_forum.html": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://onlinelibrary.wiley.com/doi/10.1002/2014JA020777/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://onlinelibrary.wiley.com/doi/10.1002/2015SW001212/full": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://onlinelibrary.wiley.com/doi/10.1002/2017SW001612/full": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://onlinelibrary.wiley.com/wol1/doi/10.1002/2014GL062874/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "http://prhome.defense.gov/nofear": [
+   "https://www.vdl.afrl.af.mil/",
+   "https://www.vdl.afrl.af.mil/atrwg/",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Frequest_account",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/request_account",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/architecture.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/best-practices-gen.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/datasets.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/energy.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/factsheet.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/future.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/issues-and-limits.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/public-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/quick-reference.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/register.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/reset-password.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/technical_documentation_report.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/time-sampling.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/vdl-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/versions-public.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/index.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/",
+   "https://www.vdl.afrl.af.mil/programs/oam/brochure.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/contact_us.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/index.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/oms.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/uci.php",
+   "https://www.vdl.afrl.af.mil/tap/"
+  ],
+  "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1879774": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://spie.org/Publications/Proceedings/Paper/10.1117/12.2190595": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "http://www.adr.af.mil/": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://www.af.mil/EqualOpportunity.aspx": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://www.af.mil/InspectorGeneralComplaints.aspx": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://www.afrl.af.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.airforce.com/": [
+   "https://www.vdl.afrl.af.mil/",
+   "https://www.vdl.afrl.af.mil/atrwg/",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Frequest_account",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/request_account",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/architecture.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/best-practices-gen.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/datasets.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/energy.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/factsheet.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/future.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/issues-and-limits.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/public-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/quick-reference.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/register.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/reset-password.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/technical_documentation_report.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/time-sampling.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/vdl-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/versions-public.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/index.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/",
+   "https://www.vdl.afrl.af.mil/programs/oam/brochure.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/contact_us.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/index.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/oms.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/uci.php",
+   "https://www.vdl.afrl.af.mil/tap/"
+  ],
+  "http://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.darpa.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.dod.mil/ddre/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA603361": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA603883": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA603959": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA604523": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php"
+  ],
+  "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA605733": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA446286": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA455162": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA457161": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA458455": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA458530": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA464400": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA464940": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA471726": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA477672": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA483066": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA490867": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA514447": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA529004": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA531813": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA542581": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA542684": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA578456": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA590857": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA599133": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.dtic.mil/docs/citations/ADA604519": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php"
+  ],
+  "http://www.foia.af.mil/": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact"
+  ],
+  "http://www.kirtland.af.mil/Portals/52/documents/DSXFactsheet.pdf?ver=2017-01-18-121823-993": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "http://www.nawcwpns.navy.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.nga.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.rdecom.army.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "http://www.sciencedirect.com/science/article/pii/S0094576514002070": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.sciencedirect.com/science/article/pii/S0273117714002865": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.sciencedirect.com/science/article/pii/S0273117714005766": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.sciencedirect.com/science/article/pii/S0273117715007401": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.sciencedirect.com/science/article/pii/S2214552415000188": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.stce.be/esww11/contributions/public/Session11/S11-O-10-HeynderickxD/IRENE_ESWW11.pptx": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "http://www.swpc.noaa.gov/sites/default/files/images/u33/HSDC-WM4-Johnston-AE9AP9-crosscal.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php"
+  ],
+  "http://www.usa.gov/": [
+   "https://www.vdl.afrl.af.mil/",
+   "https://www.vdl.afrl.af.mil/atrwg/",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Frequest_account",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/request_account",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/architecture.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/best-practices-gen.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/datasets.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/energy.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/factsheet.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/future.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/issues-and-limits.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/public-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/quick-reference.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/register.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/reset-password.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/technical_documentation_report.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/time-sampling.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/vdl-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/versions-public.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/index.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/",
+   "https://www.vdl.afrl.af.mil/programs/oam/brochure.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/contact_us.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/index.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/oms.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/uci.php",
+   "https://www.vdl.afrl.af.mil/tap/"
+  ],
+  "http://www.usa.gov/optout_instructions.shtml": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy"
+  ],
+  "https://agenda.infn.it/event/21252/contributions/108513/attachments/70149/87586/Udine_Jan_2020_Radiation_Models-Jakub_Ripa_v2.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JA028511": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030327": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030345": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030435": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030564": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030771": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JA031300": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023RS007907": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JA028198": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JA030087": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JA026349": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019SW002213": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EA001951": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://angeo.copernicus.org/articles/36/953/2018/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://apps.dtic.mil/sti/citations/AD1103378": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://apps.dtic.mil/sti/citations/AD1190206": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://apps.dtic.mil/sti/citations/ADA472842": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://arc.aiaa.org/doi/abs/10.2514/6.2004-3808": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://arc.aiaa.org/doi/abs/10.2514/6.2004-5892": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://arc.aiaa.org/doi/abs/10.2514/6.2019-0312": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1680&context=smallsat": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4750&context=smallsat": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?filename=0&article=1444&context=smallsat&type=additional": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?filename=0&article=4750&context=smallsat&type=additional": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://dle.afrl.af.mil/": [
+   "https://www.vdl.afrl.af.mil/atrwg/"
+  ],
+  "https://earth-planets-space.springeropen.com/articles/10.1186/s40623-022-01605-6": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/abstract/document/10034806": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/10049455": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/1707332": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/6156455": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/7004553": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/7116626": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/7317603": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ieeexplore.ieee.org/document/736525": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/7365594": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9137721": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9172312": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9438516": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9585627": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9679350": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9732474": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9737028": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9745646": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9755180": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9755196": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ieeexplore.ieee.org/document/9813024": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://indico.esa.int/event/20/contributions/1813/contribution.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://indico.esa.int/indico/event/188/session/0/contribution/58": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://indico.esa.int/indico/event/188/session/0/contribution/59": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.062001": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://link.springer.com/article/10.1007/s11214-021-00855-2": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php"
+  ],
+  "https://lws-set.gsfc.nasa.gov/documents/dsx_paper.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://nepp.nasa.gov/files/27390/2014-561-Xapsos-Pres-SEEMAPLD-LWS_TN14495.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://nepp.nasa.gov/files/27859/NEPP-CP-2015-Xapsos-Pres-AFRL-TN20138.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/20090304/Ginet_DSX_19Feb2009_v2.ppt": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/20100830/2010_08_31_05_RBSP_SWG_Ginet_DSX.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/20110523/DSX_RBSP/DSX_RBSP_SWG_23May2011_dsl.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/20171026/DSX_20171026_VanAllenSWG_final_updated.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/SWG/20180821/DSX_DataManagement_20180822_Yi-JiunSu.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://rbspgway.jhuapl.edu/sites/default/files/SWG/20180821/DSX_Mission_Van_Allen_SWG.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://restricted.vdl.afrl.af.mil/": [
+   "https://www.vdl.afrl.af.mil/",
+   "https://www.vdl.afrl.af.mil/atrwg/",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Frequest_account",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=hyperlink",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=privacy",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/request_account",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/architecture.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/best-practices-gen.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/datasets.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/energy.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/factsheet.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/future.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/issues-and-limits.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/modes.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/public-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/quick-reference.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/register.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/reset-password.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/tech-docs.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/technical_documentation_report.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/time-sampling.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/validations.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/vdl-login.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/versions-public.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/index.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/",
+   "https://www.vdl.afrl.af.mil/programs/oam/brochure.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/contact_us.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/index.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/oms.php",
+   "https://www.vdl.afrl.af.mil/programs/oam/uci.php",
+   "https://www.vdl.afrl.af.mil/tap/"
+  ],
+  "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2561011": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ttu-ir.tdl.org/handle/2346/74029": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ttu-ir.tdl.org/ttu-ir/handle/2346/67480": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM11A..05S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM15B1977R/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM15B1978C/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM15B1979F/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM25A..03J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/#abs/2021AGUFMSM45C2285S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2012ITPS...40.1239D/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2013SSRv..179..579G/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2014SPIE.9085E..08J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2015ITNS...62.2760J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2015SpWea..13..368J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2018AGUFMSA23B3188M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2018ITNS...65..457O/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2018ITNS...65..462O/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2019AGUFMSM41E3288M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM0020002M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM0020003S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM007..01J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM016..01G/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM016..02G/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2020AGUFMSM016..03L/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2021AGUFMSM11A..04R/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2021E%26SS....801951M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2021cosp...43E.534O/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2021cosp...43E2282O/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022AGUFMSM44C..03J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022AGUFMSM44C..05T/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022AGUFMSM45F2298C/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022EP%26S...74...64M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022ITAP...70.2915S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022ITNS...69.1066P/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022ITNS...69.1072M/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022JGRA..12730087R/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022JGRA..12730327F/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022JGRA..12730345U/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022NatSR..1214304S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022cosp...44.3292J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/documents.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2022cosp...44.3310R/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023ITNS...70..200D/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023ITNS...70.1783P/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023JGRA..12830435R/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023JGRA..12830564T/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023JGRA..12830771J/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://ui.adsabs.harvard.edu/abs/2023JGRA..12831300S/abstract": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.af.mil/News/Article-Display/Article/1886564/air-force-research-laboratory-prepares-dsx-spacecraft-for-launch/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afmc.af.mil/News/Article-Display/Article/1884383/green-propellant-infusion-mission-to-test-afrl-developed-green-propellant/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/About-Us/Fact-Sheets/Fact-Sheet-Display/Article/2331833/afrlry-compase/": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs"
+  ],
+  "https://www.afrl.af.mil/News/Article/2455267/afrl-spacecraft-collects-never-before-seen-data/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/News/Article/2660573/afrls-dsx-spacecraft-ends-orbit-with-a-team-celebration/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/News/Article/2697933/afrl-conducts-1300-experiments-on-record-breaking-satellite/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/News/Article/2800402/afrl-presents-results-from-dsx-spacecraft-experiments/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/Portals/90/Documents/RV/Demonstration and Science Experiments (DSX) Satellite_AFMC-2019-0331.pdf?ver=2020-08-26-133348-080": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.afrl.af.mil/Portals/90/Documents/RV/Demonstration%20and%20Science%20Experiments%20(DSX)%20Satellite_AFMC-2019-0331.pdf?ver=2020-08-26-133348-080": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx.php"
+  ],
+  "https://www.afspc.af.mil/News/Article-Display/Article/1887162/air-force-spacex-ready-to-launch-first-falcon-heavy-mission-for-defense-departm/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.dau.edu/library/defense-atl/DATLFiles/Sept-Oct_2019/OO_In the News.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.essoar.org/doi/10.1002/essoar.10510352.1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.essoar.org/doi/abs/10.1002/essoar.10507801.1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.essoar.org/doi/abs/10.1002/essoar.10508612.2": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.essoar.org/doi/abs/10.1002/essoar.10510386.1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.essoar.org/pdfjs/10.1002/essoar.10508955.1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.jstage.jst.go.jp/article/tastj/18/6/18_18.398/_article/-char/ja/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://www.kirtland.af.mil/News/Article-Display/Article/1917178/afrl-launched-largest-unmanned-space-structure-on-spacex-falcon-heavy/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.kirtland.af.mil/News/Article-Display/Article/2068918/air-force-research-laboratory-satellite-departing-international-space-station/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.kirtland.af.mil/News/Article-Display/Article/2187232/afrl-satellite-duo-probing-earths-radiation-belts/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.kirtland.af.mil/News/Article-Display/Article/389846/vehicle-close-to-launch/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.kirtland.af.mil/news/article-display/article/2030646/afrl-technology-set-for-launch-to-international-space-station/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.mdpi.com/2076-3417/11/8/3465/htm": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://www.nature.com/articles/s41598-022-18542-9": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.researchsquare.com/article/rs-1261412/v1": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.sciencedirect.com/science/article/abs/pii/S0168900213016239": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.sciencedirect.com/science/article/abs/pii/S0168900215013728": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.scirp.org/journal/paperinformation.aspx?paperid=88462": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://www.sdms.afrl.af.mil/": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fprograms",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/programs"
+  ],
+  "https://www.swsc-journal.org/articles/swsc/full_html/2021/01/swsc210004/swsc210004.html": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/independent-validations.php"
+  ],
+  "https://www.ursi.org/proceedings/procGA21/papers/URSIGASS2021-Fr-H01-AM1-1.pdf": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "https://www.wpafb.af.mil/News/Article-Display/Article/401567/afrl-completes-vibration-testing-for-dsx-satellite-trials/": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/dsx_publications.php"
+  ],
+  "mailto:AFRL.RVBXR.AE9.AP9.Org.Mbx@us.af.mil": [
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/index.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/news.php",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/team.php"
+  ],
+  "mailto:HQAFMCEN.DigitalCampaign@us.af.mil": [
+   "https://www.vdl.afrl.af.mil/programs/arsenl/",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/access-instructions.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/gra.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/index.php",
+   "https://www.vdl.afrl.af.mil/programs/arsenl/standards.php"
+  ],
+  "mailto:help@vdl.afrl.af.mil": [
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=accessibility",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpage&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public%2Fpassword_instruct",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/page&view=contact",
+   "https://www.vdl.afrl.af.mil/index.php?r=public/passwordInstruct",
+   "https://www.vdl.afrl.af.mil/programs/ae9ap9/downloads.php"
+  ]
+ }
+}
