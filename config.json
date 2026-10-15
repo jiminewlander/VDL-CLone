@@ -4,8 +4,8 @@
   "show_usg_consent_banner": false,
   "site_notice": "",
   "account_request_url": "",
-  "help_email": "help@vdl.afrl.af.mil",
-  "help_phone": "(937) 713-8394",
+  "help_email": "AFRL.RVBXR.AE9.AP9.Org.Mbx@us.af.mil",
+  "help_phone": "",
   "contacts": {
     "ae9ap9": "AFRL.RVBXR.AE9.AP9.Org.Mbx@us.af.mil"
   },
@@ -19,5 +19,9 @@
       "accessibility"
     ]
   },
-  "third_party_overrides": {}
+  "third_party_overrides": {},
+  "text_replacements": {
+    "\n\t<li>(937) 713-8394</li>": "",
+    "help@vdl.afrl.af.mil": "AFRL.RVBXR.AE9.AP9.Org.Mbx@us.af.mil"
+  }
 }

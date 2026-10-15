@@ -193,6 +193,8 @@ class Builder:
                       text, count=1, flags=re.S)
 
     def clean(self, text, url):
+        for find, repl in self.cfg.get("text_replacements", {}).items():
+            text = text.replace(find, repl)
         text = re.sub(r'<meta name="csrf-(param|token)"[^>]*>\s*', "", text)
         text = re.sub(r'<input type="hidden" name="_csrf"[^>]*>', "", text)
         text = re.sub(r"<!--\s*<div class=\"publicFooterId\">.*?-->", "", text, flags=re.S)
