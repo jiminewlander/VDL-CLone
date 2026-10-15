@@ -79,9 +79,33 @@ class Builder:
         self.out = os.path.join(ROOT, "site")
         self.cache = os.path.join(ROOT, "capture", "assets")  # committed: the build must not depend on the old server
         self.assets = set()
+        self.out_of_scope = set()
         self.release = {BASE + k: self.cfg["release_base"] + v for k, v in self.cfg["release_assets"].items()}
         self.third_party = {BASE + k: v for k, v in self.cfg["third_party_overrides"].items()}
         self.missing = []
+        # Optional: publish a single sub-site as the whole site (see config.json "scope").
+        self.scope = self.cfg.get("scope") or {}
+        self.root = self.scope.get("root", "").lstrip("/")
+
+    def in_scope(self, url):
+        if not self.root:
+            return True
+        p = urllib.parse.urlparse(url)
+        if p.path.lstrip("/").startswith(self.root):
+            return True
+        q = urllib.parse.parse_qs(p.query)
+        return q.get("r", [""])[0] == "public/page" and q.get("view", [""])[0] in self.scope.get("portal_pages", [])
+
+    def scoped(self, out):
+        if out and self.root and out.startswith(self.root):
+            return out[len(self.root):]
+        return out
+
+    def page_out(self, url):
+        p = urllib.parse.urlparse(url)
+        if self.root and p.path in ("", "/") and not p.query:
+            return "index.html"  # the portal home becomes the sub-site home
+        return self.scoped(page_out(url)) if self.in_scope(url) else None
 
     # ---- link rewriting -------------------------------------------------
     def resolve(self, ref, base_url, from_out):
@@ -102,10 +126,13 @@ class Builder:
         target = REDIRECT_PAGES.get(p.path, None)
         if target and not p.query:
             key = BASE + target
-        out = page_out(key)
-        if out:
-            return rel(from_out, out) + frag
-        a = asset_out(key)
+        if page_out(key):
+            out = self.page_out(key)
+            if out:
+                return rel(from_out, out) + frag
+            self.out_of_scope.add(key)
+            return html.escape(key)
+        a = self.scoped(asset_out(key))
         self.assets.add((key.split("?")[0], a))
         return rel(from_out, a) + frag
 
@@ -176,6 +203,9 @@ class Builder:
         if self.cfg.get("site_notice"):
             text = text.replace('<div id="content">',
                                 f'<div id="content"><div class="site-notice">{self.cfg["site_notice"]}</div>', 1)
+        if self.root:
+            text = re.sub(r'\s*<li>\s*<a href="[^"]*(?:r=public(?:%2F|/)(?:request_account|password_instruct|passwordInstruct|programs)'
+                          r'|restricted\.vdl\.afrl\.af\.mil)[^"]*">.*?</a>\s*</li>', "", text, flags=re.S)
         text = self.replace_forms(text, url)
         if urllib.parse.urlparse(url).path.endswith("/ae9ap9/downloads.php"):
             text = self.ae9_downloads(text)
@@ -203,11 +233,13 @@ class Builder:
         built = {}
         for url, meta in self.inv["pages"].items():
             path = urllib.parse.urlparse(url).path
-            out = page_out(url)
+            if self.root and path in ("", "/"):
+                continue  # portal home: only a link alias for the sub-site home
+            out = self.page_out(url)
             if not out or out in built:
                 continue
             if path in REDIRECT_PAGES:
-                self.write(out, self.redirect_html(out, page_out(BASE + REDIRECT_PAGES[path])))
+                self.write(out, self.redirect_html(out, self.page_out(BASE + REDIRECT_PAGES[path])))
                 built[out] = url
                 continue
             text = open(os.path.join(ROOT, "capture", "raw", meta["raw"]), encoding="utf-8", errors="ignore").read()
@@ -218,7 +250,11 @@ class Builder:
         self.fetch_assets()
         self.write(".nojekyll", "")
         self.write("404.html", self.redirect_html("404.html", "index.html").replace("Redirecting…", "Page not found"))
+        outs = [o for _, o in self.assets]
+        assert len(outs) == len(set(outs)), "two assets map to the same output path"
         print(f"pages: {len(built)}  assets: {len(self.assets)}  missing: {len(self.missing)}")
+        for u in sorted(self.out_of_scope):
+            print("  links out of scope (left pointing at the live site):", u)
         for m in self.missing:
             print("  missing:", m)
 
@@ -232,7 +268,7 @@ class Builder:
                 done.add((url, out))
                 if out.lower().endswith(DOC_EXT) and not self.args.with_docs:
                     continue
-                cached = os.path.join(self.cache, out)
+                cached = os.path.join(self.cache, asset_out(url))
                 if not os.path.exists(cached):
                     if self.args.offline or not curl_get(url, cached):
                         self.missing.append(url)
